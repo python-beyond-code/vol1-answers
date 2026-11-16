@@ -290,13 +290,21 @@ print(money)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-19"></a>پاسخ تمرین 19:
 
+```python
+number = 8
 
+number = number * 2
+number = number + 6
+number = number / 2
+
+print(number)
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
