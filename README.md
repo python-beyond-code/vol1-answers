@@ -201,9 +201,27 @@ print("You are", age, "years old and you live in", country + ".")
 print("Your height is", height, "meters.")
 print("Next year you will be", age + 1, "years old.")
 ```
+[بازگشت به فهرست](#toc)
 
 <hr>
 
+### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```python
+print(1, 2, 3, 4, 5, sep="-")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
 
 </div>
+
