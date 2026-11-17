@@ -482,13 +482,18 @@ print(25 % 4) # answer: 1
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-30"></a>پاسخ تمرین 30:
 
-
+```python
+number = 12
+number += 8
+number *= 2
+print(number)   # answer: 40
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
