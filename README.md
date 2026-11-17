@@ -306,13 +306,18 @@ print(number)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-20"></a>پاسخ تمرین 20:
 
-
+```python
+print(5 == 5)       # True
+print(15 < 10)      # False
+print(28 >= 27)     # True
+print(14 != 14.1)   # True
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
