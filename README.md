@@ -442,13 +442,28 @@ print(age > 18) # True
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-28"></a>پاسخ تمرین 28:
 
+```python
+# Get input from the user
+number = float(input("Enter a number: "))
+age = int(input("Enter your age: "))
 
+# اگر کاربر 25 و 20 وارد کند
+# Simple comparisons
+print(number > age)     # True
+print(number <= age)    # False
+print(number == age)    # False
+
+# Using logical operators
+print(number > 20 and age > 18) # True
+print(number < 10 or age < 15)  # False
+print(not (18 <= age <= 60))    # False
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
