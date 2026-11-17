@@ -332,13 +332,20 @@ True    # print(18 < 20)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-22"></a>پاسخ تمرین 22:
 
-
+```python
+print(141 == 14.1)  # False
+print(141 < 14.1)   # False
+print(141 > 14.1)   # True
+print(141 >= 14.1)  # True
+print(141 <= 14.1)  # False
+print(141 != 14.1)  # True
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
