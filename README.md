@@ -347,13 +347,29 @@ print(141 != 14.1)  # True
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-23"></a>پاسخ تمرین 23:
 
+```python
+a = 15
+b = 5
 
+print("Sum:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Power:", a ** b)
+
+# Output
+Sum: 20
+Subtraction: 10
+Multiplication: 75
+Division: 3.0
+Power: 759375
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
