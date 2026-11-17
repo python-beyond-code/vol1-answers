@@ -371,13 +371,34 @@ Power: 759375
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-24"></a>پاسخ تمرین 24:
+
+```python
+age = 20
+print(age >= 18 and age <= 30)
+
+# 20 >= 18 → True
+# 20 <= 30 → True
+# True and True → True
 
 
+age = 20
+print(age >= 18 and age <= 30)
+
+# 45 >= 50 → False
+# 45 == 45 → True
+# False or True → True
+
+
+is_active = True
+print(not is_active)
+
+# not True → False
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
