@@ -7,9 +7,9 @@
 
 | پاسخهای 1 تا 30 | پاسخهای  31 تا 60 |
 |---|---|
-| [ 1 تمرین ](#ex-1) | تمرین 31 |(#ex-31)
-| [ 2 تمرین ](#ex-2) | تمرین 32 |(#ex-32)
-| [ 3 تمرین ](#ex-3) | تمرین 33 |(#ex-33)
+| [ 1 تمرین ](#ex-1) | [تمرین 31 ] |(#ex-31)
+| [ 2 تمرین ](#ex-2) | [ تمرین 32 ] |(#ex-32)
+| [ 3 تمرین ](#ex-3) | [ تمرین 33 ] |(#ex-33)
 | [ 4 تمرین ](#ex-4) | تمرین 34 |(#ex-34)
 | [ 5 تمرین ](#ex-5) | تمرین 35 |(#ex-35)
 | [ 6 تمرین ](#ex-6) | تمرین 36 |(#ex-36)
@@ -512,13 +512,37 @@ print(country == "Italy")        # False
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-32"></a>پاسخ تمرین 32:
 
+```python
+# Get two numbers from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
+# Basic operations
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+
+# Extra operations
+print("Remainder:", num1 % num2)
+print("Floor Division:", num1 // num2)
+print("Power:", num1 ** num2)
+```
+```text
+Addition: 15.0
+Subtraction: -5.0
+Multiplication: 50.0
+Division: 0.5
+Remainder: 5.0
+Floor Division: 0.0
+Power: 9765625.0
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
