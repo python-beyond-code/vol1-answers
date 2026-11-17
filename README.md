@@ -400,13 +400,19 @@ print(not is_active)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-25"></a>پاسخ تمرین 25:
 
-
+```python
+print(True and False)          # False
+print(False or True)           # True
+print(not (10 > 5))            # False
+print((15 > 10) and (20 < 30)) # True
+print((8 > 5) or (10 < 3))     # True
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
