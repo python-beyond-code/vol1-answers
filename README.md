@@ -529,8 +529,8 @@ print("Division:", num1 / num2)
 print("Remainder:", num1 % num2)
 print("Floor Division:", num1 // num2)
 print("Power:", num1 ** num2)
-```
-```text
+
+# Output
 Addition: 15.0
 Subtraction: -5.0
 Multiplication: 50.0
@@ -539,6 +539,7 @@ Remainder: 5.0
 Floor Division: 0.0
 Power: 9765625.0
 ```
+
 
 [بازگشت به فهرست](#toc)
 
