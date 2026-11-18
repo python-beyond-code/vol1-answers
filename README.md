@@ -596,7 +596,7 @@ print((-2) ** 2)
 ```python
 result = True or False and False
 
-# اولویت عملگر and از or بیشتر است
+# اولویت عملگر: and > or 
 # پس عبارت به صورت زیر تفسیر می‌شود:
 # True or (False and False)
 
