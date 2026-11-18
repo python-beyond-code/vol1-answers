@@ -738,13 +738,22 @@ result = ((10 + (5 * 2)) > 15) and ((20 % 3) == 2)
 
 <hr>
 
-<!-- ### <a id="ex-38"></a>پاسخ تمرین 38:
+### <a id="ex-38"></a>پاسخ تمرین 38:
 
+```python
+# Exercise 38
+# A program that gets an integer from the user and uses a one-line if to store and display whether it is even or odd
 
+number = int(input("Enter an integer: "))
+
+result = "even" if number % 2 == 0 else "odd"
+
+print("The number", number, "is", result)
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-39"></a>پاسخ تمرین 39:
 
