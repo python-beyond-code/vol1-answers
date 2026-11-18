@@ -781,13 +781,22 @@ print("The larger number is", larger)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-41"></a>پاسخ تمرین 41:
 
+```python
+price = 120
 
+if price > 100:
+    label = "expensive"
+else:
+    label = "cheap"
+
+print(label)
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
