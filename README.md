@@ -741,9 +741,6 @@ result = ((10 + (5 * 2)) > 15) and ((20 % 3) == 2)
 ### <a id="ex-38"></a>پاسخ تمرین 38:
 
 ```python
-# Exercise 38
-# A program that gets an integer from the user and uses a one-line if to store and display whether it is even or odd
-
 number = int(input("Enter an integer: "))
 
 result = "even" if number % 2 == 0 else "odd"
