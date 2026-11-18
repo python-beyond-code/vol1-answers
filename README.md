@@ -766,13 +766,20 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-40"></a>پاسخ تمرین 40:
+### <a id="ex-40"></a>پاسخ تمرین 40:
 
+```python
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
 
+larger = num1 if num1 > num2 else num2
+
+print("The larger number is", larger)
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
