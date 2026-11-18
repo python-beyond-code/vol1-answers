@@ -752,13 +752,19 @@ print("The number", number, "is", result)
 
 <hr>
 
-<!-- ### <a id="ex-39"></a>پاسخ تمرین 39:
+### <a id="ex-39"></a>پاسخ تمرین 39:
 
+```python
+grade = float(input("Enter the student's grade: "))
 
+result = "Passed" if grade >= 10 else "Failed"
+
+print(result)
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-40"></a>پاسخ تمرین 40:
 
