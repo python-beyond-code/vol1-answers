@@ -1993,8 +1993,8 @@ if tens + units > 10:
 [بازگشت به فهرست](#toc)
 
 <hr>
-<!-- 
-<!-- ### <a id="ex-102"></a>پاسخ تمرین 102:
+
+### <a id="ex-102"></a>پاسخ تمرین 102:
 
 ```py
 name = input("Enter your name: ")
@@ -2009,15 +2009,21 @@ print(formatted)
 
 <hr> --> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-103"></a>پاسخ تمرین 103:
 
 ```py
+sentence = input("Enter a sentence: ")
+word = input("Enter a word: ")
 
+if sentence.find(word) != -1:
+    print("The word is in the sentence.")
+else:
+    print("The word is not in the sentence.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
