@@ -1250,15 +1250,26 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-70"></a>پاسخ تمرین 70:
 
 ```py
+def find_larger(a, b):
+    if a > b:
+        return a
+    else:
+        return b
 
+
+print(find_larger(3, 8))
+print(find_larger(10, 4))
+print(find_larger(-5, -2))
+print(find_larger(7, 7))
+print(find_larger(2.5, 2.4))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
