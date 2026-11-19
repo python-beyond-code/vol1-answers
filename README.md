@@ -2407,15 +2407,25 @@ print(f"ID: {user_id}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-125"></a>پاسخ تمرین 125:
 
 ```py
+first_name = input("First name: ").strip().title()
+last_name = input("Last name: ").strip().title()
+email = input("Email: ").strip().lower()
+age = input("Age: ").strip()
+city = input("City: ").strip().title()
 
+print("----- User Information -----")
+print(f"Name: {first_name} {last_name}")
+print(f"Email: {email}")
+print(f"Age: {age}")
+print(f"City: {city}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
