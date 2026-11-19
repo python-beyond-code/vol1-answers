@@ -987,15 +987,17 @@ while number >= 1:
 
 <hr>
 
-<!-- ### <a id="ex-53"></a>پاسخ تمرین 53:
+### <a id="ex-53"></a>پاسخ تمرین 53:
 
 ```py
-
+# for number in range(0, 10 + 1):
+for number in range(0, 11):
+    print(number)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-54"></a>پاسخ تمرین 54:
 
