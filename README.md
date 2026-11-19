@@ -3038,15 +3038,24 @@ for student in students:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-160"></a>پاسخ تمرین 160:
 
 ```py
+students = [
+    ["Ali", 18, 15, 20],
+    ["Sara", 12, 14, 16],
+    ["Reza", 9, 11, 10]
+]
 
+for student in students:
+    name = student[0]
+    average = (student[1] + student[2] + student[3]) / 3
+    print(f"{name}: {round(average, 2)}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
