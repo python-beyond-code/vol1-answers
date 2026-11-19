@@ -1861,12 +1861,13 @@ else:
 
 ```
 آزمایش با کلمه‌های خواسته‌شده:
-کلمه	نتیجه
-radar	Palindrome
-bookoo	Not a palindrome
-civic	Palindrome
-madam	Palindrome
-momo	Not a palindrome
+|نتیجه | کلمه |
+|---|---|
+|radar|Palindrome|
+|bookoo|Not a palindrome|
+|civic|Palindrome|
+|madam|Palindrome|
+|momo|Not a palindrome|
 
 [بازگشت به فهرست](#toc)
 
