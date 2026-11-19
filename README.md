@@ -2686,15 +2686,22 @@ print("Copy:", scores_copy)
 
 <hr>
 
-<!-- ### <a id="ex-140"></a>پاسخ تمرین 140:
+### <a id="ex-140"></a>پاسخ تمرین 140:
 
 ```py
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+new_numbers = []
 
+for number in numbers:
+    new_numbers.append(number)
+
+print("numbers:", numbers)
+print("new_numbers:", new_numbers)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-141"></a>پاسخ تمرین 141:
 
