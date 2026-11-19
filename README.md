@@ -1957,15 +1957,23 @@ print("The letter o appears", count_o, "times in the text.")
 
 <hr>
 
-<!-- ### <a id="ex-100"></a>پاسخ تمرین 100:
+### <a id="ex-100"></a>پاسخ تمرین 100:
 
 ```py
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+starts = text.startswith("Lorem")
+ends = text.endswith("aliqua.")
+
+if starts and ends:
+    print("Yes, the text starts with Lorem and ends with aliqua.")
+else:
+    print("No, the text does not start with Lorem or does not end with aliqua.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
