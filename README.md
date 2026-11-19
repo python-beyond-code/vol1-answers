@@ -2039,15 +2039,48 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-13"></a>پاسخ تمرین 13:
 
 ```py
+line = input("Enter name, last name, phone, national code and age: ")
+parts = line.split()
 
+phone = parts[2]
+national = parts[3]
+
+# Count even digits in phone
+even_phone = 0
+for digit in phone:
+    if digit.isdigit() and int(digit) % 2 == 0:
+        even_phone += 1
+
+# Count even digits in national code
+even_national = 0
+for digit in national:
+    if digit.isdigit() and int(digit) % 2 == 0:
+        even_national += 1
+
+# Sum of phone digits
+sum_phone = 0
+for digit in phone:
+    if digit.isdigit():
+        sum_phone += int(digit)
+
+# Sum of national code digits
+sum_national = 0
+for digit in national:
+    if digit.isdigit():
+        sum_national += int(digit)
+
+print("Even digits in phone number:", even_phone)
+print("Even digits in national code:", even_national)
+print("Sum of phone digits:", sum_phone)
+print("Sum of national code digits:", sum_national)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
