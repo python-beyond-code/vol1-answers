@@ -874,13 +874,18 @@ if temperature < 0 or temperature > 40:
 
 <hr>
 
-<!-- ### <a id="ex-47"></a>پاسخ تمرین 47:
+### <a id="ex-47"></a>پاسخ تمرین 47:
 
+```py
+is_raining = False
 
+if not is_raining:
+    print("Let's go for a walk.")
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-48"></a>پاسخ تمرین 48:
 
