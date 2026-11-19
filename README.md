@@ -1041,15 +1041,18 @@ for number in range(1, 11):
 
 <hr>
 
-<!-- ### <a id="ex-57"></a>پاسخ تمرین 57:
+### <a id="ex-57"></a>پاسخ تمرین 57:
 
 ```py
-
+for number in range(1, 11):
+    if number == 5:
+        continue
+    print(number)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-58"></a>پاسخ تمرین 58:
 
