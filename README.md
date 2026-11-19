@@ -1885,15 +1885,24 @@ print(word[::2])
 
 <hr>
 
-<!-- ### <a id="ex-96"></a>پاسخ تمرین 96:
+### <a id="ex-96"></a>پاسخ تمرین 96:
 
 ```py
+word = input("Enter a word: ")
 
+length = len(word)
+mid = (length + 1) // 2
+
+first_half = word[:mid]
+second_half = word[mid:]
+
+print(first_half)
+print(second_half)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-97"></a>پاسخ تمرین 97:
 
