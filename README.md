@@ -1395,15 +1395,21 @@ print(absolute_value(num))
 
 <hr>
 
-<!-- ### <a id="ex-77"></a>پاسخ تمرین 77:
+### <a id="ex-77"></a>پاسخ تمرین 77:
 
 ```py
+def print_multiples_of_4():
+    for number in range(1, 101):
+        if number % 4 == 0:
+            print(number, end=" ")
 
+
+print_multiples_of_4()
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-78"></a>پاسخ تمرین 78:
 
