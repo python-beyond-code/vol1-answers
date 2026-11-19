@@ -2491,15 +2491,30 @@ print(f"City: {city}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-129"></a>پاسخ تمرین 129:
 
 ```py
+import string
 
+character = input("Character: ")
+code = ord(character)
+
+print(f"Character: {character}")
+print(f"Code: {code}")
+
+if character in string.ascii_uppercase:
+    other_code = code + 32
+    print(f"Lowercase: {chr(other_code)}")
+    print(f"Code: {other_code}")
+elif character in string.ascii_lowercase:
+    other_code = code - 32
+    print(f"Uppercase: {chr(other_code)}")
+    print(f"Code: {other_code}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
