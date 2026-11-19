@@ -2607,15 +2607,28 @@ print(scores)
 
 <hr>
 
-<!-- ### <a id="ex-135"></a>پاسخ تمرین 135:
+### <a id="ex-135"></a>پاسخ تمرین 135:
 
 ```py
+scores = [8, 15, 10, 7, 18, 20]
 
+print("Original scores:", scores)
+
+for i in range(len(scores)):
+    if scores[i] < 10:
+        scores[i] = 10
+    else:
+        scores[i] = scores[i] + 1
+
+print("Final scores:", scores)
+print("Number of scores:", len(scores))
+print("First score:", scores[0])
+print("Last score:", scores[-1])
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-136"></a>پاسخ تمرین 136:
 
