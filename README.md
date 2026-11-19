@@ -1904,15 +1904,21 @@ print(second_half)
 
 <hr>
 
-<!-- ### <a id="ex-97"></a>پاسخ تمرین 97:
+### <a id="ex-97"></a>پاسخ تمرین 97:
 
 ```py
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
 
+full_name = first_name + " " + last_name
+
+print(full_name.upper())
+print(full_name.title())
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-98"></a>پاسخ تمرین 98:
 
