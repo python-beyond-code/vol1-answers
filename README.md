@@ -2156,15 +2156,21 @@ print(f"The average is {average:.2f}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-111"></a>پاسخ تمرین 111:
 
 ```py
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+city = input("Enter your city: ")
 
+print(f"""Name: {name}
+Age: {age}
+City: {city}""")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
