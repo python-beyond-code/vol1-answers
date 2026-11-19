@@ -999,15 +999,22 @@ for number in range(0, 11):
 
 <hr>
 
-<!-- ### <a id="ex-54"></a>پاسخ تمرین 54:
+### <a id="ex-54"></a>پاسخ تمرین 54:
 
 ```py
+# روش اول با استفاده از گام
+for number in range(0, 11, 2):
+    print(number)
 
+# روش دوم با استفاده از شرط
+for number in range(1, 11):
+    if number % 2 == 0:
+        print(number)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-55"></a>پاسخ تمرین 55:
 
