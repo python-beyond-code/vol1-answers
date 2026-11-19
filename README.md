@@ -2823,15 +2823,28 @@ print(f"Reversed: {reversed_numbers}")
 
 <hr>
 
-<!-- ### <a id="ex-149"></a>پاسخ تمرین 149:
+### <a id="ex-149"></a>پاسخ تمرین 149:
 
 ```py
+scores = [18, 12, 15, 9, 20]
 
+scores.append(14)
+scores.insert(2, 16)
+scores.remove(9)
+
+print(f"Number of scores: {len(scores)}")
+
+scores.sort()
+
+scores_copy = scores[:]
+
+print(f"Original: {scores}")
+print(f"Copy: {scores_copy}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-150"></a>پاسخ تمرین 150:
 
