@@ -2358,15 +2358,19 @@ print(word[::-1])
 
 <hr>
 
-<!-- ### <a id="ex-122"></a>پاسخ تمرین 122:
+### <a id="ex-122"></a>پاسخ تمرین 122:
 
 ```py
+names = input("Enter names: ").split(",")
 
+for name in names:
+    name = name.strip().title()
+    print(name)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-123"></a>پاسخ تمرین 123:
 
