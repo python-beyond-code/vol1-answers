@@ -1611,15 +1611,21 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-82"></a>پاسخ تمرین 82:
+### <a id="ex-82"></a>پاسخ تمرین 82:
 
 ```py
+import random
 
+number = random.randint(1, 50)
+print("Random number:", number)
+
+for odd in range(1, number + 1, 2):
+    print(odd, end=" ")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-83"></a>پاسخ تمرین 83:
 
