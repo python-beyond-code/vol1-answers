@@ -2266,17 +2266,26 @@ print(chr(97))
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-117"></a>پاسخ تمرین 117:
 
 ```py
+name = input("Enter your name: ")
 
+total = 0
+
+for character in name:
+    code = ord(character)
+    print(character, code)
+    total = total + code
+
+print("Total character codes:", total)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-118"></a>پاسخ تمرین 118:
 
 ```py
 
