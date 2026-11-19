@@ -1054,15 +1054,19 @@ for number in range(1, 11):
 
 <hr>
 
-<!-- ### <a id="ex-58"></a>پاسخ تمرین 58:
+### <a id="ex-58"></a>پاسخ تمرین 58:
 
 ```py
-
+for number in range(1, 11):
+    if number % 2 == 0:
+        print("Even")
+    else:
+        print("Odd")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-59"></a>پاسخ تمرین 59:
 
