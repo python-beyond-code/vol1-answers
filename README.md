@@ -1465,15 +1465,138 @@ greet("Tina", "Welcome")
 
 <hr>
 
-<!-- ### <a id="ex-80"></a>پاسخ تمرین 80:
+### <a id="ex-80"></a>پاسخ تمرین 80:
 
 ```py
+# step 1
+secret_number = 37
 
+
+def check_guess(secret, guess):
+    if guess > secret:
+        return "Too high"
+    elif guess < secret:
+        return "Too low"
+    else:
+        return "Correct"
+
+
+attempts = 0
+
+while True:
+    guess = int(input("Enter your guess: "))
+    attempts = attempts + 1
+
+    result = check_guess(secret_number, guess)
+    print(result)
+
+    if result == "Correct":
+        print("You found it in", attempts, "attempts.")
+        break
+
+# step 2
+secret_number = 37
+
+
+def check_guess(secret, guess):
+    if guess > secret:
+        return "Too high"
+    elif guess < secret:
+        return "Too low"
+    else:
+        return "Correct"
+
+
+def get_max_attempts(level):
+    if level == "easy":
+        return 10
+    elif level == "medium":
+        return 7
+    else:
+        return 5
+
+
+level = input("Choose a level (easy, medium, hard): ")
+while level != "easy" and level != "medium" and level != "hard":
+    level = input("Invalid level. Choose easy, medium or hard: ")
+
+max_attempts = get_max_attempts(level)
+attempts = 0
+found = False
+
+while attempts < max_attempts:
+    guess = int(input("Enter your guess: "))
+    attempts = attempts + 1
+
+    result = check_guess(secret_number, guess)
+    print(result)
+
+    if result == "Correct":
+        print("You found it in", attempts, "attempts.")
+        found = True
+        break
+
+if not found:
+    print("Game over. The secret number was", secret_number)
+
+# step 3
+def check_guess(secret, guess):
+    if guess > secret:
+        return "Too high"
+    elif guess < secret:
+        return "Too low"
+    else:
+        return "Correct"
+
+
+def get_max_attempts(level):
+    if level == "easy":
+        return 10
+    elif level == "medium":
+        return 7
+    else:
+        return 5
+
+
+def play_game():
+    secret_number = 37
+
+    level = input("Choose a level (easy, medium, hard): ")
+    while level != "easy" and level != "medium" and level != "hard":
+        level = input("Invalid level. Choose easy, medium or hard: ")
+
+    max_attempts = get_max_attempts(level)
+    attempts = 0
+    found = False
+
+    while attempts < max_attempts:
+        guess = int(input("Enter your guess: "))
+        attempts = attempts + 1
+
+        result = check_guess(secret_number, guess)
+        print(result)
+
+        if result == "Correct":
+            print("You found it in", attempts, "attempts.")
+            found = True
+            break
+
+    if not found:
+        print("Game over. The secret number was", secret_number)
+
+
+while True:
+    play_game()
+
+    again = input("Do you want to play again? (yes/no): ")
+    if again != "yes":
+        print("Goodbye!")
+        break
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
