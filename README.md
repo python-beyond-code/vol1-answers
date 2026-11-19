@@ -3057,15 +3057,44 @@ for student in students:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-161"></a>پاسخ تمرین 161:
 
 ```py
+students = [
+    ["Ali", 18, 15, 20],
+    ["Sara", 17, 9, 16],
+    ["Reza", 12, 14, 10],
+    ["Mina", 20, 19, 18]
+]
 
+print("Student names:")
+for student in students:
+    print(student[0])
+
+print()
+print("Report:")
+for student in students:
+    name = student[0]
+    scores = student[1:]
+    total = student[1] + student[2] + student[3]
+    average = round(total / 3, 2)
+
+    if student[1] >= 10 and student[2] >= 10 and student[3] >= 10:
+        status = "Passing"
+    else:
+        status = "Failing"
+
+    print(f"{name}")
+    print(f"  Scores: {scores}")
+    print(f"  Total: {total}")
+    print(f"  Average: {average}")
+    print(f"  Status: {status}")
+    print()
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
