@@ -957,15 +957,20 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-51"></a>پاسخ تمرین 51:
 
 ```py
+number = 1
 
+while number <= 5:
+    print(number)
+    number = number + 1
+    # number += 1
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
