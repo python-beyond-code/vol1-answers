@@ -2977,15 +2977,22 @@ print(numbers)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-157"></a>پاسخ تمرین 157:
 
 ```py
+students = [
+    ["Ali", 18],
+    ["Sara", 20],
+    ["Reza", 15]
+]
 
+for row in students:
+    print(row)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
