@@ -1693,15 +1693,42 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-87"></a>پاسخ تمرین 87:
+### <a id="ex-87"></a>پاسخ تمرین 87:
 
 ```py
+import random
 
+secret_number = random.randint(1, 100)
+attempts = 0
+max_attempts = 10
+
+def check_guess(secret_number, guess):
+    if guess > secret_number:
+        return "Too high"
+    elif guess < secret_number:
+        return "Too low"
+    else:
+        return "Correct"
+
+while attempts < max_attempts:
+    guess = int(input("Guess the number: "))
+    attempts += 1
+
+    result = check_guess(secret_number, guess)
+    print(result)
+
+    if result == "Correct":
+        print("You won!")
+        print("Attempts:", attempts)
+        break
+else:
+    print("You lost!")
+    print("Secret number:", secret_number)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-88"></a>پاسخ تمرین 88:
 
