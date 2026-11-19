@@ -2920,15 +2920,24 @@ print(f"Odd numbers: {odd_numbers}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-154"></a>پاسخ تمرین 154:
 
 ```py
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
+print(matrix)
+
+for row in matrix:
+    print(row)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
