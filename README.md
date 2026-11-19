@@ -1993,16 +1993,21 @@ if tens + units > 10:
 [بازگشت به فهرست](#toc)
 
 <hr>
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- 
+<!-- ### <a id="ex-102"></a>پاسخ تمرین 102:
 
 ```py
+name = input("Enter your name: ")
 
+cleaned = name.strip()
+formatted = cleaned.title()
+
+print(formatted)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr> --> -->
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
