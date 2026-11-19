@@ -2172,15 +2172,26 @@ City: {city}""")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-112"></a>پاسخ تمرین 112:
 
 ```py
+name = input("Enter student name: ")
+grade1 = float(input("Enter first grade: "))
+grade2 = float(input("Enter second grade: "))
+grade3 = float(input("Enter third grade: "))
 
+average = (grade1 + grade2 + grade3) / 3
+percentage = (average / 20) * 100
+
+print(f"""Student Report
+Name: {name}
+Average: {average:.2f}
+Percentage: {percentage:.2f}%""")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
