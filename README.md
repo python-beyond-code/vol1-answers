@@ -2025,15 +2025,19 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-104"></a>پاسخ تمرین 104:
 
 ```py
+text = "Java is easy. I like Java."
 
+result = text.replace("Java", "Python")
+
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
