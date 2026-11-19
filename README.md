@@ -1215,15 +1215,21 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-68"></a>پاسخ تمرین 68:
 
 ```py
+def square(number):
+    return number ** 2
 
+
+num = int(input("Enter a number: "))
+result = square(num)
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
