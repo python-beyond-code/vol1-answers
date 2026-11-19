@@ -2112,15 +2112,18 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-13"></a>پاسخ تمرین 13:
 
 ```py
+name = input("Enter your name: ")
+age = input("Enter your age: ")
 
+print(f"My name is {name} and I am {age} years old.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
