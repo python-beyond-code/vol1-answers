@@ -1028,15 +1028,18 @@ for number in range(10, 0, -1):
 
 <hr>
 
-<!-- ### <a id="ex-56"></a>پاسخ تمرین 56:
+### <a id="ex-56"></a>پاسخ تمرین 56:
 
 ```py
-
+for number in range(1, 11):
+    if number == 7:
+        break
+    print(number)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-57"></a>پاسخ تمرین 57:
 
