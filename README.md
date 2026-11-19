@@ -937,15 +937,25 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-50"></a>پاسخ تمرین 50:
+### <a id="ex-50"></a>پاسخ تمرین 50:
 
 ```py
+# مقادیر دو متغیر زیر را تغییر داده و برنامه را در حالت های مختلف تست کنید
+is_logged_in = True
+is_admin = False
 
+if is_logged_in:
+    if is_admin:
+        print("Welcome, admin.")
+    else:
+        print("Welcome, user.")
+else:
+    print("Please log in.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
