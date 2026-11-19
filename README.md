@@ -2898,15 +2898,27 @@ print(f"Odd numbers: {odd_numbers}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-153"></a>پاسخ تمرین 153:
 
 ```py
+odd_numbers = []
+even_numbers = []
 
+for i in range(10):
+    number = int(input("Enter a number: "))
+
+    if number % 2 == 0:
+        even_numbers.append(number)
+    else:
+        odd_numbers.append(number)
+
+print(f"Even numbers: {even_numbers}")
+print(f"Odd numbers: {odd_numbers}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
