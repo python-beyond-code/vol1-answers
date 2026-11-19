@@ -1751,15 +1751,22 @@ print("Sum:", total)
 
 <hr>
 
-<!-- ### <a id="ex-89"></a>پاسخ تمرین 89:
+### <a id="ex-89"></a>پاسخ تمرین 89:
 
 ```py
+import math
 
+products = 53
+products_per_page = 10
+
+pages = math.ceil(products / products_per_page)
+
+print("Number of pages:", pages)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-90"></a>پاسخ تمرین 90:
 
