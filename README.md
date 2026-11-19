@@ -2225,15 +2225,22 @@ print(f"Total characters: {len(email)}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-114"></a>پاسخ تمرین 114:
 
 ```py
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
 
+first_name = first_name.strip().lower()
+last_name = last_name.strip().lower()
+
+username = f"{first_name}.{last_name}"
+print(f"Username: {username}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
