@@ -2846,15 +2846,23 @@ print(f"Copy: {scores_copy}")
 
 <hr>
 
-<!-- ### <a id="ex-150"></a>پاسخ تمرین 150:
+### <a id="ex-150"></a>پاسخ تمرین 150:
 
 ```py
+numbers = [0, 1, 2, 3, 2, 5, 4, 7, 3, 8, 11, 12, 9, 6, 8, 4, 8, 5]
+duplicates = []
 
+for number in numbers:
+    if numbers.count(number) > 1 and number not in duplicates:
+        duplicates.append(number)
+
+print(f"Original list: {numbers}")
+print(f"Duplicate elements: {duplicates}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
