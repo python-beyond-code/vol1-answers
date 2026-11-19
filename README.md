@@ -887,13 +887,22 @@ if not is_raining:
 
 <hr>
 
-<!-- ### <a id="ex-48"></a>پاسخ تمرین 48:
+### <a id="ex-48"></a>پاسخ تمرین 48:
 
+```py
+age = 20
+accepted_terms = True
+email_verified = True
 
+if age >= 18 and accepted_terms and email_verified:
+    print("Registration completed.")
+else:
+    print("Registration failed.")
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-49"></a>پاسخ تمرین 49:
 
