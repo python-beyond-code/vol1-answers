@@ -1343,15 +1343,21 @@ print(largest, smallest, middle)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-74"></a>پاسخ تمرین 74:
 
 ```py
+def countdown(n):
+    for number in range(n, 0, -1):
+        print(number)
 
+
+n = int(input("Enter a positive integer: "))
+countdown(n)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
