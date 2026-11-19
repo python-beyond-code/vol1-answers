@@ -2717,15 +2717,22 @@ print(numbers)
 
 <hr>
 
-<!-- ### <a id="ex-142"></a>پاسخ تمرین 142:
+### <a id="ex-142"></a>پاسخ تمرین 142:
 
 ```py
+numbers = [1, 2, 3]
+numbers.append([4, 5])
 
+other_numbers = [1, 2, 3]
+other_numbers.extend([4, 5])
+
+print(f"With append: {numbers}")
+print(f"With extend: {other_numbers}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-143"></a>پاسخ تمرین 143:
 
