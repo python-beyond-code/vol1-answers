@@ -1231,15 +1231,24 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-69"></a>پاسخ تمرین 69:
 
 ```py
+def is_adult(age):
+    if age >= 18:
+        return True
+    else:
+        return False
 
+
+age = int(input("Enter your age: "))
+result = is_adult(age)
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
