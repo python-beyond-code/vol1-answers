@@ -1096,15 +1096,18 @@ for row in range(5):
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-61"></a>پاسخ تمرین 61:
 
 ```py
-
+for row in range(1, 6):
+    for column in range(row):
+        print("*", end="")
+    print()
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
