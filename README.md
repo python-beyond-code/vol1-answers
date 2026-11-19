@@ -1975,15 +1975,24 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-101"></a>پاسخ تمرین 101:
 
 ```py
+line = input("Enter first name, last name and age: ")
 
+parts = line.split()
+age = int(parts[-1])
+
+tens = age // 10
+units = age % 10
+
+if tens + units > 10:
+    print(age)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
