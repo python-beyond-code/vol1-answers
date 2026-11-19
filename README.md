@@ -2695,23 +2695,27 @@ new_numbers = []
 for number in numbers:
     new_numbers.append(number)
 
-print("numbers:", numbers)
-print("new_numbers:", new_numbers)
+print(f"numbers: {numbers}")
+print(f"new_numbers: {new_numbers}")
 ```
 
 [بازگشت به فهرست](#toc)
 
 <hr>
 
-<!-- ### <a id="ex-141"></a>پاسخ تمرین 141:
+### <a id="ex-141"></a>پاسخ تمرین 141:
 
 ```py
+numbers = [10, 20, 40, 50]
 
+numbers.insert(2, 30)
+
+print(numbers)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-142"></a>پاسخ تمرین 142:
 
