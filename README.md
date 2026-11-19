@@ -2776,15 +2776,19 @@ print(f"The number 10 appears {count_of_10} times.")
 
 <hr>
 
-<!-- ### <a id="ex-146"></a>پاسخ تمرین 146:
+### <a id="ex-146"></a>پاسخ تمرین 146:
 
 ```py
+languages = ["Python", "Java", "C++", "Go"]
 
+position = languages.index("C++")
+
+print(f"The position of C++ is {position}.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-147"></a>پاسخ تمرین 147:
 
