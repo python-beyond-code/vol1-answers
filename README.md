@@ -811,13 +811,22 @@ if age >= 18:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-43"></a>پاسخ تمرین 43:
 
+```python
+number = int(input("Enter a number: "))
 
+if number > 0:
+    print("Positive")
+elif number == 0:
+    print("Zero")
+else:
+    print("Negative")
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
