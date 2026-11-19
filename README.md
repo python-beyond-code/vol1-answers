@@ -1836,15 +1836,17 @@ print("Spaces:", spaces)
 
 <hr>
 
-<!-- ### <a id="ex-93"></a>پاسخ تمرین 93:
+### <a id="ex-93"></a>پاسخ تمرین 93:
 
 ```py
+word = "Python Programming"
 
+print(word[::-1])
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-94"></a>پاسخ تمرین 94:
 
