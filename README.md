@@ -2540,15 +2540,25 @@ print(generate_username(name))
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-131"></a>پاسخ تمرین 131:
 
 ```py
+import random
 
+
+def shuffle_word(word):
+    letters = random.sample(word, len(word))
+    return "".join(letters)
+
+
+for i in range(3):
+    word = input("Enter a word: ")
+    print("Shuffled:", shuffle_word(word))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
