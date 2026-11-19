@@ -2242,15 +2242,17 @@ print(f"Username: {username}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-115"></a>پاسخ تمرین 115:
 
 ```py
-
+print(ord("A"))
+print(ord("B"))
+print(ord("a"))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
