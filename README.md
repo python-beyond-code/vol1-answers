@@ -2994,15 +2994,24 @@ for row in students:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-158"></a>پاسخ تمرین 158:
 
 ```py
+numbers = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
 
+for row in numbers:
+    for number in row:
+        print(number, end="\t")
+    print()
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
