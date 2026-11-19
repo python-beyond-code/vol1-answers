@@ -1109,15 +1109,31 @@ for row in range(1, 6):
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-62"></a>پاسخ تمرین 62:
 
 ```py
+# with for
+total = 0
 
+for number in range(1, 101):
+    total = total + number
+
+print(total)
+
+# with while
+number = 1 
+total = 0
+
+while number <= 100:
+    total += number
+    number += 1
+
+print(total)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
