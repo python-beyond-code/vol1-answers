@@ -1359,7 +1359,25 @@ countdown(n)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-75"></a>پاسخ تمرین 75:
+
+```py
+def round_number(number, digits):
+    return round(number, digits)
+
+
+num = float(input("Enter a decimal number: "))
+digits = int(input("Enter the number of decimal places: "))
+
+result = round_number(num, digits)
+print(result)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+<!-- ### <a id="ex-76"></a>پاسخ تمرین 76:
 
 ```py
 
@@ -1369,7 +1387,7 @@ countdown(n)
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-77"></a>پاسخ تمرین 77:
 
 ```py
 
@@ -1379,7 +1397,7 @@ countdown(n)
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-78"></a>پاسخ تمرین 78:
 
 ```py
 
@@ -1389,7 +1407,7 @@ countdown(n)
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-79"></a>پاسخ تمرین 79:
 
 ```py
 
@@ -1399,17 +1417,7 @@ countdown(n)
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-80"></a>پاسخ تمرین 80:
 
 ```py
 
