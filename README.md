@@ -2310,17 +2310,34 @@ print("Your password:", password)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-119"></a>پاسخ تمرین 119:
+
+```py
+word = input("Enter a word: ")
 
+length = len(word)
+half = length // 2
 
+first_half = word[:half]
 
+if length % 2 == 0:
+    second_half = word[half:]
+else:
+    second_half = word[half + 1:]
+
+print("First half:", first_half)
+print("Second half:", second_half)
+```
+
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2328,7 +2345,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2336,7 +2355,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2344,7 +2365,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2352,7 +2375,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2360,7 +2385,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2368,7 +2395,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2376,7 +2405,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2384,7 +2415,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2392,7 +2425,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2400,7 +2435,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2408,7 +2445,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2416,7 +2455,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2424,7 +2465,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2432,7 +2475,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2440,7 +2485,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2448,7 +2495,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2456,7 +2505,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2464,7 +2515,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2472,7 +2525,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2480,7 +2535,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2488,7 +2545,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2496,7 +2555,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2504,7 +2565,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2512,7 +2575,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2520,7 +2585,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2528,7 +2595,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2536,7 +2605,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2544,7 +2615,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2552,7 +2625,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2560,7 +2635,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2568,7 +2645,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2576,7 +2655,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2584,7 +2665,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2592,7 +2675,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2600,7 +2685,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2608,7 +2695,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2616,7 +2705,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2624,7 +2715,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2632,7 +2725,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2640,7 +2735,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2648,7 +2745,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2656,7 +2755,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2664,7 +2765,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2672,7 +2775,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2680,7 +2785,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2688,7 +2795,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2696,7 +2805,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2704,7 +2815,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2712,7 +2825,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2720,7 +2835,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2728,7 +2845,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2736,7 +2855,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2744,7 +2865,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2752,7 +2875,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2760,7 +2885,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2768,7 +2895,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2776,7 +2905,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2784,7 +2915,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2792,7 +2925,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2800,7 +2935,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2808,7 +2945,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2816,7 +2955,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2824,7 +2965,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2832,7 +2975,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2840,7 +2985,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2848,7 +2995,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2856,7 +3005,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2864,7 +3015,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2872,7 +3025,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2880,7 +3035,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2888,7 +3045,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2896,7 +3055,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2904,7 +3065,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2912,7 +3075,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2920,7 +3085,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2928,7 +3095,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2936,7 +3105,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2944,7 +3115,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2952,7 +3125,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2960,7 +3135,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2968,7 +3145,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
@@ -2976,7 +3155,9 @@ print("Your password:", password)
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
+```py
 
+```
 
 [بازگشت به فهرست](#toc)
 
