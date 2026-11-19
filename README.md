@@ -2808,15 +2808,20 @@ print(f"Descending: {scores_copy}")
 
 <hr>
 
-<!-- ### <a id="ex-148"></a>پاسخ تمرین 148:
+### <a id="ex-148"></a>پاسخ تمرین 148:
 
 ```py
+numbers = [1, 2, 3, 4, 5]
 
+reversed_numbers = numbers[::-1]
+
+print(f"Original: {numbers}")
+print(f"Reversed: {reversed_numbers}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-149"></a>پاسخ تمرین 149:
 
