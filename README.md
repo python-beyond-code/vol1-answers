@@ -1680,15 +1680,18 @@ print("Your drink is:", choice)
 
 <hr>
 
-<!-- ### <a id="ex-86"></a>پاسخ تمرین 86:
+### <a id="ex-86"></a>پاسخ تمرین 86:
 
 ```py
+import math as m
 
+result = m.sqrt(100)
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-87"></a>پاسخ تمرین 87:
 
