@@ -1665,15 +1665,20 @@ print("Area:", area)
 
 <hr>
 
-<!-- ### <a id="ex-85"></a>پاسخ تمرین 85:
+### <a id="ex-85"></a>پاسخ تمرین 85:
 
 ```py
+import random
 
+drinks = ["tea", "coffee", "juice"]
+
+choice = random.choice(drinks)
+print("Your drink is:", choice)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-86"></a>پاسخ تمرین 86:
 
