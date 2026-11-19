@@ -1301,23 +1301,47 @@ def sum_even(n):
     return total
 
 
-n = int(input("Enter a positive integer: "))
-print(sum_even(n))
+n = int(input("Enter a two-digit number: "))
+result = sum_even(n)
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-73"></a>پاسخ تمرین 73:
 
 ```py
+def sort_three(a, b, c):
+    largest = a
+    if b > largest:
+        largest = b
+    if c > largest:
+        largest = c
 
+    smallest = a
+    if b < smallest:
+        smallest = b
+    if c < smallest:
+        smallest = c
+
+    middle = a + b + c - largest - smallest
+
+    return largest, smallest, middle
+
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+num3 = int(input("Enter the third number: "))
+
+largest, smallest, middle = sort_three(num1, num2, num3)
+print(largest, smallest, middle)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
