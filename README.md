@@ -2097,15 +2097,20 @@ print("Number of words:", count)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-107"></a>پاسخ تمرین 107:
 
 ```py
+date = "2026/09/21"
 
+parts = date.split("/")
+result = "-".join(parts)
+
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
