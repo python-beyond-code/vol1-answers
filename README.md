@@ -1003,11 +1003,11 @@ for number in range(0, 11):
 ### <a id="ex-54"></a>پاسخ تمرین 54:
 
 ```py
-# روش اول با استفاده از گام
+# with step
 for number in range(0, 11, 2):
     print(number)
 
-# روش دوم با استفاده از شرط
+# with if and %
 for number in range(1, 11):
     if number % 2 == 0:
         print(number)
@@ -1168,15 +1168,19 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-65"></a>پاسخ تمرین 65:
 
 ```py
+def say_hello():
+    print("Hello, Python!")
 
+
+say_hello()
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
