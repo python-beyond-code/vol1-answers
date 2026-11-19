@@ -1083,15 +1083,18 @@ while True:
 
 <hr>
 
-<!-- ### <a id="ex-60"></a>پاسخ تمرین 60:
+### <a id="ex-60"></a>پاسخ تمرین 60:
 
 ```py
-
+for row in range(5):
+    for column in range(5):
+        print("*", end="")
+    print()
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
