@@ -2630,15 +2630,17 @@ print("Last score:", scores[-1])
 
 <hr>
 
-<!-- ### <a id="ex-136"></a>پاسخ تمرین 136:
+### <a id="ex-136"></a>پاسخ تمرین 136:
 
 ```py
+fruits = ["Ali", "Mohammad", "Mehran", "sasan", "mehdi"]
 
+print(fruits[:3])
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-137"></a>پاسخ تمرین 137:
 
