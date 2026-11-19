@@ -1920,15 +1920,19 @@ print(full_name.title())
 
 <hr>
 
-<!-- ### <a id="ex-98"></a>پاسخ تمرین 98:
+### <a id="ex-98"></a>پاسخ تمرین 98:
 
 ```py
+text = "   Hello World   "
 
+result = text.strip()
+
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-99"></a>پاسخ تمرین 99:
 
