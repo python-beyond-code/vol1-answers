@@ -1135,15 +1135,18 @@ print(total)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-63"></a>پاسخ تمرین 63:
 
 ```py
+number = int(input("Enter a number: "))
 
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
