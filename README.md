@@ -1377,15 +1377,23 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-76"></a>پاسخ تمرین 76:
+### <a id="ex-76"></a>پاسخ تمرین 76:
 
 ```py
+def absolute_value(number):
+    if number < 0:
+        return -number
+    else:
+        return number
 
+
+num = float(input("Enter a number: "))
+print(absolute_value(num))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-77"></a>پاسخ تمرین 77:
 
