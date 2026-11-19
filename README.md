@@ -1814,15 +1814,27 @@ if dice1 == 6 and dice2 == 6:
 
 <hr>
 
-<!-- ### <a id="ex-92"></a>پاسخ تمرین 92:
+### <a id="ex-92"></a>پاسخ تمرین 92:
 
 ```py
+word = "Python Programming Language "
 
+print(word[10:18])
+
+print("Length:", len(word))
+
+spaces = 0
+
+for char in word:
+    if char == " ":
+        spaces = spaces + 1
+
+print("Spaces:", spaces)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-93"></a>پاسخ تمرین 93:
 
