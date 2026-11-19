@@ -1185,6 +1185,21 @@ say_hello()
 ### <a id="ex-66"></a>پاسخ تمرین 66:
 
 ```py
+def greet(name):
+    print("Hello, ", name, "!", sep="")
+
+
+person = input("Enter a name: ")
+greet(person)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-67"></a>پاسخ تمرین 67:
+
+```py
 def add(a, b):
     return a + b
 
@@ -1199,16 +1214,6 @@ print(result)
 [بازگشت به فهرست](#toc)
 
 <hr>
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
