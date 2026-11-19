@@ -1068,15 +1068,20 @@ for number in range(1, 11):
 
 <hr>
 
-<!-- ### <a id="ex-59"></a>پاسخ تمرین 59:
+### <a id="ex-59"></a>پاسخ تمرین 59:
 
 ```py
+while True:
+    password = input("Enter the password: ")
 
+    if password == "python123":
+        print("Access granted.")
+        break
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-60"></a>پاسخ تمرین 60:
 
