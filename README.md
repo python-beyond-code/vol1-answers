@@ -1411,15 +1411,44 @@ print_multiples_of_4()
 
 <hr>
 
-<!-- ### <a id="ex-78"></a>پاسخ تمرین 78:
+### <a id="ex-78"></a>پاسخ تمرین 78:
 
 ```py
+def calculate(a, b, operator):
+    if operator == "+":
+        return a + b
+    elif operator == "-":
+        return a - b
+    elif operator == "*":
+        return a * b
+    elif operator == "/":
+        if b == 0:
+            return "Cannot divide by zero."
+        return a / b
+    elif operator == "%":
+        if b == 0:
+            return "Cannot divide by zero."
+        return a % b
+    elif operator == "//":
+        if b == 0:
+            return "Cannot divide by zero."
+        return a // b
+    elif operator == "**":
+        return a ** b
+    else:
+        return "Unknown operator."
 
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+op = input("Enter an operator (+, -, *, /, %, //, **): ")
+
+print(calculate(num1, num2, op))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-79"></a>پاسخ تمرین 79:
 
