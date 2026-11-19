@@ -2427,15 +2427,24 @@ print(f"City: {city}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-126"></a>پاسخ تمرین 126:
 
 ```py
+username = input("Enter a username: ")
 
+if username == "":
+    print("The username cannot be empty.")
+elif len(username) < 5:
+    print("The username must have at least 5 characters.")
+elif not username.isalnum():
+    print("The username must contain only letters and digits.")
+else:
+    print("The username is valid.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
