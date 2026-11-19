@@ -2592,15 +2592,20 @@ print(colors)
 
 <hr>
 
-<!-- ### <a id="ex-134"></a>پاسخ تمرین 134:
+### <a id="ex-134"></a>پاسخ تمرین 134:
 
 ```py
+scores = [10, 12, 15, 18, 20]
 
+for i in range(len(scores)):
+    scores[i] = scores[i] + 1
+
+print(scores)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-135"></a>پاسخ تمرین 135:
 
