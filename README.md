@@ -2578,15 +2578,19 @@ print("Final scores:", scores)
 
 <hr>
 
-<!-- ### <a id="ex-133"></a>پاسخ تمرین 133:
+### <a id="ex-133"></a>پاسخ تمرین 133:
 
 ```py
+colors = ["Red", "Blue", "Green", "Yellow"]
 
+colors[-1] = "Purple"
+
+print(colors)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-134"></a>پاسخ تمرین 134:
 
