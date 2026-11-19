@@ -1730,15 +1730,26 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-88"></a>پاسخ تمرین 88:
+### <a id="ex-88"></a>پاسخ تمرین 88:
 
 ```py
+import random
 
+number = random.randint(10, 100)
+
+total = 0
+
+for i in range(1, number + 1):
+    if i % 2 == 0:
+        print(i)
+        total = total + i
+
+print("Sum:", total)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-89"></a>پاسخ تمرین 89:
 
