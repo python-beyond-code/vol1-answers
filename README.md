@@ -1848,15 +1848,29 @@ print(word[::-1])
 
 <hr>
 
-<!-- ### <a id="ex-94"></a>پاسخ تمرین 94:
+### <a id="ex-94"></a>پاسخ تمرین 94:
 
 ```py
+word = input("Enter a word: ")
+
+if word == word[::-1]:
+    print("Palindrome")
+else:
+    print("Not a palindrome")
+
 
 ```
+آزمایش با کلمه‌های خواسته‌شده:
+کلمه	نتیجه
+radar	Palindrome
+bookoo	Not a palindrome
+civic	Palindrome
+madam	Palindrome
+momo	Not a palindrome
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-95"></a>پاسخ تمرین 95:
 
