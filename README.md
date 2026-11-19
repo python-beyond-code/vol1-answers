@@ -1182,15 +1182,23 @@ say_hello()
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-66"></a>پاسخ تمرین 66:
 
 ```py
+def add(a, b):
+    return a + b
 
+
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+result = add(num1, num2)
+print(result)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
