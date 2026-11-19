@@ -3013,15 +3013,30 @@ for row in numbers:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-159"></a>پاسخ تمرین 159:
 
 ```py
+students = [
+    ["Ali", 18],
+    ["Sara", 12],
+    ["Reza", 9]
+]
 
+for student in students:
+    print(f"{student[0]}: {student[1]}")
+
+print()
+
+for student in students:
+    if student[1] >= 10:
+        print(f"{student[0]} → Passing")
+    else:
+        print(f"{student[0]} → Failing")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
