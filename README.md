@@ -1934,15 +1934,28 @@ print(result)
 
 <hr>
 
-<!-- ### <a id="ex-99"></a>پاسخ تمرین 99:
+### <a id="ex-99"></a>پاسخ تمرین 99:
 
 ```py
+# step 1 with count
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
+count_o = text.count("o")
+
+print("The letter o appears", count_o, "times in the text.")
+
+# step 2
+count_o = 0
+
+for letter in text:
+    if letter == "o":
+        count_o += 1
+print("The letter o appears", count_o, "times in the text.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-100"></a>پاسخ تمرین 100:
 
