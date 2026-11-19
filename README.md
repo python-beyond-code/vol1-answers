@@ -2446,15 +2446,19 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-127"></a>پاسخ تمرین 127:
 
 ```py
+character = input("Character: ")
+print("Code:", ord(character))
 
+code = int(input("Code: "))
+print("Character:", chr(code))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
