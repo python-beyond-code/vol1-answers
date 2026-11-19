@@ -2372,15 +2372,25 @@ for name in names:
 
 <hr>
 
-<!-- ### <a id="ex-123"></a>پاسخ تمرین 123:
+### <a id="ex-123"></a>پاسخ تمرین 123:
 
 ```py
+email = input("Enter your email address: ")
 
+if email.find("@") != -1:
+    print("The email contains @.")
+else:
+    print("The email does not contain @.")
+
+if email.endswith(".com"):
+    print("The email ends with .com.")
+else:
+    print("The email does not end with .com.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
