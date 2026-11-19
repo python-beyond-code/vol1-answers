@@ -2193,15 +2193,37 @@ Percentage: {percentage:.2f}%""")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-113"></a>پاسخ تمرین 113:
 
 ```py
+# step 1
+email = input("Enter your email address: ")
 
+position = email.find("@")
+username = email[:position]
+domain = email[position + 1:]
+
+print(f"Email: {email}")
+print(f"Username: {username}")
+print(f"Domain: {domain}")
+print(f"Total characters: {len(email)}")
+
+# step 2
+email = input("Enter your email address: ")
+
+parts = email.split("@")
+username = parts[0]
+domain = parts[1]
+
+print(f"Email: {email}")
+print(f"Username: {username}")
+print(f"Domain: {domain}")
+print(f"Total characters: {len(email)}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
