@@ -1271,15 +1271,23 @@ print(find_larger(2.5, 2.4))
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-71"></a>پاسخ تمرین 71:
 
 ```py
+def average(a, b, c):
+    return (a + b + c) / 3
 
+
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+num3 = float(input("Enter the third number: "))
+
+print(average(num1, num2, num3))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
