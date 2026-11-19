@@ -2516,15 +2516,29 @@ elif character in string.ascii_lowercase:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-130"></a>پاسخ تمرین 130:
 
 ```py
+import random
+import string
 
+
+def generate_username(name):
+    username = name
+
+    for i in range(4):
+        username = username + random.choice(string.digits)
+
+    return username
+
+
+name = input("Enter your name: ")
+print(generate_username(name))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
