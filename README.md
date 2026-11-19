@@ -2285,15 +2285,30 @@ print("Total character codes:", total)
 
 <hr>
 
-<!-- ### <a id="ex-118"></a>پاسخ تمرین 118:
+### <a id="ex-118"></a>پاسخ تمرین 118:
 
 ```py
+import random
+import string
 
+upper = random.choice(string.ascii_uppercase)
+lower = random.choice(string.ascii_lowercase)
+digit = random.choice(string.digits)
+symbol = random.choice(string.punctuation)
+
+all_characters = string.ascii_letters + string.digits + string.punctuation
+
+rest = ""
+for i in range(4):
+    rest = rest + random.choice(all_characters)
+
+password = upper + lower + digit + symbol + rest
+print("Your password:", password)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
