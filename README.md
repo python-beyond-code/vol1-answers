@@ -861,13 +861,18 @@ if age >= 18 and age <= 65 and has_ticket:
 
 <hr>
 
-<!-- ### <a id="ex-46"></a>پاسخ تمرین 46:
+### <a id="ex-46"></a>پاسخ تمرین 46:
 
+```py
+temperature = 45
 
+if temperature < 0 or temperature > 40:
+    print("Extreme temperature")
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-47"></a>پاسخ تمرین 47:
 
