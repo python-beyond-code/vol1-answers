@@ -2864,15 +2864,20 @@ print(f"Duplicate elements: {duplicates}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-151"></a>پاسخ تمرین 151:
 
 ```py
+even_numbers = []
 
+for number in range(2, 101, 2):
+    even_numbers.append(number)
+
+print(even_numbers)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
