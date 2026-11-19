@@ -2082,15 +2082,20 @@ print("Sum of national code digits:", sum_national)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-106"></a>پاسخ تمرین 106:
 
 ```py
+sentence = input("Enter a sentence: ")
 
+words = sentence.split()
+count = len(words)
+
+print("Number of words:", count)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
