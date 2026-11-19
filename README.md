@@ -2125,15 +2125,20 @@ print(f"My name is {name} and I am {age} years old.")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-109"></a>پاسخ تمرین 109:
 
 ```py
+price = float(input("Enter the product price: "))
+quantity = int(input("Enter the quantity: "))
 
+total = price * quantity
+
+print(f"The final price is {total}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
