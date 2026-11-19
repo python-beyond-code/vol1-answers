@@ -2140,15 +2140,21 @@ print(f"The final price is {total}")
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-110"></a>پاسخ تمرین 110:
 
 ```py
+grade1 = float(input("Enter the first grade: "))
+grade2 = float(input("Enter the second grade: "))
+grade3 = float(input("Enter the third grade: "))
 
+average = (grade1 + grade2 + grade3) / 3
+
+print(f"The average is {average:.2f}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
