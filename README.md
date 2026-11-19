@@ -798,13 +798,18 @@ print(label)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-42"></a>پاسخ تمرین 42:
 
+```python
+age = int(input("Enter your age: "))
 
+if age >= 18:
+    print("You can enter.")
+```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
