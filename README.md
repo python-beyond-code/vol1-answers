@@ -2642,15 +2642,17 @@ print(fruits[:3])
 
 <hr>
 
-<!-- ### <a id="ex-137"></a>پاسخ تمرین 137:
+### <a id="ex-137"></a>پاسخ تمرین 137:
 
 ```py
+students = ["Ahmad", "Hamed", "Sami", "Tina", "Sahra"]
 
+print(students[-2:])
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-138"></a>پاسخ تمرین 138:
 
