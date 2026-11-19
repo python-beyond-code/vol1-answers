@@ -2762,15 +2762,19 @@ print(f"Removed task: {removed_task}")
 
 <hr>
 
-<!-- ### <a id="ex-145"></a>پاسخ تمرین 145:
+### <a id="ex-145"></a>پاسخ تمرین 145:
 
 ```py
+numbers = [10, 20, 10, 30, 10, 40, 20]
 
+count_of_10 = numbers.count(10)
+
+print(f"The number 10 appears {count_of_10} times.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-146"></a>پاسخ تمرین 146:
 
