@@ -1148,15 +1148,25 @@ for i in range(1, 11):
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-64"></a>پاسخ تمرین 64:
 
 ```py
+def years_until_40(age):
+    return 40 - age
 
+
+age = int(input("Enter your age: "))
+remaining = years_until_40(age)
+
+if remaining > 0:
+    print("You have", remaining, "years until you reach 40.")
+else:
+    print("You are already 40 or older.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
