@@ -1645,15 +1645,25 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-84"></a>پاسخ تمرین 84:
+### <a id="ex-84"></a>پاسخ تمرین 84:
 
 ```py
+import math
+import random
 
+radius = random.randint(1, 50)
+
+circumference = 2 * math.pi * radius
+area = math.pi * radius ** 2
+
+print("Radius:", radius)
+print("Circumference:", circumference)
+print("Area:", area)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-85"></a>پاسخ تمرین 85:
 
