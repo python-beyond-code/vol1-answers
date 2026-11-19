@@ -2666,15 +2666,25 @@ print(numbers[::2])
 
 <hr>
 
-<!-- ### <a id="ex-139"></a>پاسخ تمرین 139:
+### <a id="ex-139"></a>پاسخ تمرین 139:
 
 ```py
+scores = [18, 12, 15, 9, 20, 17, 14, 19, 11, 16]
 
+print("Whole list:", scores)
+print("First three:", scores[:3])
+print("Last three:", scores[-3:])
+print("Middle part:", scores[3:7])
+print("Every second score:", scores[::2])
+print("Reversed:", scores[::-1])
+
+scores_copy = scores[:]
+print("Copy:", scores_copy)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-140"></a>پاسخ تمرین 140:
 
