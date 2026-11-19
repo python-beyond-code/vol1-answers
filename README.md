@@ -2790,15 +2790,23 @@ print(f"The position of C++ is {position}.")
 
 <hr>
 
-<!-- ### <a id="ex-147"></a>پاسخ تمرین 147:
+### <a id="ex-147"></a>پاسخ تمرین 147:
 
 ```py
+scores = [15, 8, 19, 12, 20, 10]
 
+scores_copy = scores[:]
+
+scores.sort()
+scores_copy.sort(reverse=True)
+
+print(f"Ascending: {scores}")
+print(f"Descending: {scores_copy}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-148"></a>پاسخ تمرین 148:
 
