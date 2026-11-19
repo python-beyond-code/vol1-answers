@@ -2879,15 +2879,24 @@ print(even_numbers)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-152"></a>پاسخ تمرین 152:
 
 ```py
+import random
 
+random_number = random.randint(1, 100)
+odd_numbers = []
+
+for number in range(1, random_number + 1, 2):
+    odd_numbers.append(number)
+
+print(f"Random number: {random_number}")
+print(f"Odd numbers: {odd_numbers}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
