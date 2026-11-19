@@ -2748,15 +2748,19 @@ print(fruits)
 
 <hr>
 
-<!-- ### <a id="ex-144"></a>پاسخ تمرین 144:
+### <a id="ex-144"></a>پاسخ تمرین 144:
 
 ```py
+tasks = ["Study", "Exercise", "Read", "Sleep"]
 
+removed_task = tasks.pop()
+
+print(f"Removed task: {removed_task}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-145"></a>پاسخ تمرین 145:
 
