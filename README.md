@@ -1450,15 +1450,20 @@ print(calculate(num1, num2, op))
 
 <hr>
 
-<!-- ### <a id="ex-79"></a>پاسخ تمرین 79:
+### <a id="ex-79"></a>پاسخ تمرین 79:
 
 ```py
+def greet(name, message="Hello"):
+    print(message, ", ", name, "!", sep="")
 
+
+greet("Tina")
+greet("Tina", "Welcome")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-80"></a>پاسخ تمرین 80:
 
