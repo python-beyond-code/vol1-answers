@@ -1289,15 +1289,25 @@ print(average(num1, num2, num3))
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-72"></a>پاسخ تمرین 72:
 
 ```py
+def sum_even(n):
+    total = 0
 
+    for number in range(2, n + 1, 2):
+        total = total + number
+
+    return total
+
+
+n = int(input("Enter a positive integer: "))
+print(sum_even(n))
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
