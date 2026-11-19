@@ -2392,15 +2392,20 @@ else:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-124"></a>پاسخ تمرین 124:
 
 ```py
+first_name = input("First name: ")
+last_name = input("Last name: ")
+birth_year = input("Birth year: ")
 
+user_id = first_name[:3].lower() + last_name[:3].lower() + birth_year
+print(f"ID: {user_id}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
