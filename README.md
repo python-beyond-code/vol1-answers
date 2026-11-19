@@ -2460,15 +2460,36 @@ print("Character:", chr(code))
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-128"></a>پاسخ تمرین 128:
 
 ```py
+full_name = input("Full name: ").strip().title()
+email = input("Email: ").strip().lower()
+age = input("Age: ").strip()
+city = input("City: ").strip().title()
 
+position = email.find("@")
+username = email[:position]
+domain = email[position + 1:]
+
+print("----- User Information -----")
+print(f"Name: {full_name}")
+print(f"Name length: {len(full_name)}")
+
+if full_name != "":
+    print(f"First character: {full_name[0]}")
+    print(f"Last character: {full_name[-1]}")
+
+print(f"Email: {email}")
+print(f"Username: {username}")
+print(f"Domain: {domain}")
+print(f"Age: {age}")
+print(f"City: {city}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
