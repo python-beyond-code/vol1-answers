@@ -2734,15 +2734,19 @@ print(f"With extend: {other_numbers}")
 
 <hr>
 
-<!-- ### <a id="ex-143"></a>پاسخ تمرین 143:
+### <a id="ex-143"></a>پاسخ تمرین 143:
 
 ```py
+fruits = ["Apple", "Banana", "Orange", "Mango", "Banana"]
 
+fruits.remove("Banana")
+
+print(fruits)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-144"></a>پاسخ تمرین 144:
 
