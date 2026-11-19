@@ -1627,15 +1627,23 @@ for odd in range(1, number + 1, 2):
 
 <hr>
 
-<!-- ### <a id="ex-83"></a>پاسخ تمرین 83:
+### <a id="ex-83"></a>پاسخ تمرین 83:
 
 ```py
+import random
 
+number = random.randint(1, 100)
+print("Random number:", number)
+
+if number % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-84"></a>پاسخ تمرین 84:
 
