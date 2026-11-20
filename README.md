@@ -3444,7 +3444,87 @@ print(f"Email: {email}")
 
 <hr>
 
-<!-- ### <a id="ex-178"></a>پاسخ تمرین 178:
+### <a id="ex-178"></a>پاسخ تمرین 178:
+
+```py
+student = {"name": "Mahshid", "age": 20}
+
+student["score"] = 18
+
+print(student)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-179"></a>پاسخ تمرین 179:
+
+```py
+student = {"name": "Bita", "age": 20, "score": 18}
+
+student["age"] = 21
+student["score"] = 20
+
+print(student)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-180"></a>پاسخ تمرین 180:
+
+```py
+student = {"name": "Tina", "age": 20}
+
+student.update({"age": 21, "score": 19, "active": True})
+
+print(student)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-181"></a>پاسخ تمرین 181:
+
+```py
+account = {"username": "ahmad123", "email": "ahmad@example.com"}
+profile = {"name": "Ahmad", "age": 20, "city": "Shiraz"}
+
+user = account | profile
+
+print(user["name"])
+print(len(user))
+print(user)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-182"></a>پاسخ تمرین 182:
+
+```py
+import random
+import string
+
+random_number = random.randint(1, 26)
+letters = {}
+
+for i in range(random_number):
+    letters[i] = string.ascii_lowercase[i]
+
+print(f"Random_number = {random_number}")
+print(letters)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-183"></a>پاسخ تمرین 183:
 
 ```py
 
@@ -3452,57 +3532,7 @@ print(f"Email: {email}")
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
-
-<!-- ### <a id="ex-179"></a>پاسخ تمرین 179:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-180"></a>پاسخ تمرین 180:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-181"></a>پاسخ تمرین 181:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-182"></a>پاسخ تمرین 182:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-183"></a>پاسخ تمرین 183:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-184"></a>پاسخ تمرین 184:
 
