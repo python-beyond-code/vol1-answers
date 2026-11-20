@@ -3163,15 +3163,32 @@ print(f"Odd numbers plus 10: {increased_odds}")
 
 <hr>
 
-<!-- ### <a id="ex-165"></a>پاسخ تمرین 165:
+### <a id="ex-165"></a>پاسخ تمرین 165:
 
 ```py
+scores = [14, 18, 11, 20, 16]
 
+print(f"Original scores: {scores}")
+
+new_score = int(input("Enter a new score: "))
+scores.append(new_score)
+
+print(f"Updated scores: {scores}")
+print(f"Lowest score: {min(scores)}")
+print(f"Highest score: {max(scores)}")
+
+total = sum(scores)
+count = len(scores)
+average = total / count
+
+print(f"Total: {total}")
+print(f"Number of scores: {count}")
+print(f"Average: {round(average, 2)}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-166"></a>پاسخ تمرین 166:
 
