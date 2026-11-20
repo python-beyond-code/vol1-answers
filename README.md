@@ -3125,15 +3125,21 @@ print(f"Final list: {numbers}")
 
 <hr>
 
-<!-- ### <a id="ex-163"></a>پاسخ تمرین 163:
+### <a id="ex-163"></a>پاسخ تمرین 163:
 
 ```py
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
+for number in numbers[:]:
+    if number % 2 != 0:
+        numbers.remove(number)
+
+print(numbers)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-164"></a>پاسخ تمرین 164:
 
