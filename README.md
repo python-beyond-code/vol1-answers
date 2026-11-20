@@ -3190,15 +3190,35 @@ print(f"Average: {round(average, 2)}")
 
 <hr>
 
-<!-- ### <a id="ex-166"></a>پاسخ تمرین 166:
+### <a id="ex-166"></a>پاسخ تمرین 166:
 
 ```py
+text = input("Enter numbers separated by spaces: ")
 
+numbers_list = []
+for part in text.split():
+    numbers_list.append(int(part))
+
+print(f"List: {numbers_list}")
+print(f"Length: {len(numbers_list)}")
+print(f"Type: {type(numbers_list)}")
+
+numbers_tuple = tuple(numbers_list)
+
+print(f"Tuple: {numbers_tuple}")
+print(f"Length: {len(numbers_tuple)}")
+print(f"Type: {type(numbers_tuple)}")
+
+new_list = list(numbers_tuple)
+
+print(f"List again: {new_list}")
+print(f"Length: {len(new_list)}")
+print(f"Type: {type(new_list)}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-167"></a>پاسخ تمرین 167:
 
