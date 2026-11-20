@@ -3603,7 +3603,184 @@ print(removed_items)
 
 <hr>
 
-<!-- ### <a id="ex-187"></a>پاسخ تمرین 187:
+### <a id="ex-187"></a>پاسخ تمرین 187:
+
+```py
+scores = {"Ahmad": 18, "Sara": 15, "Mehdi": 19}
+
+for key in scores.keys():
+    print(key)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-188"></a>پاسخ تمرین 188:
+
+```py
+scores = {"Ahmad": 18, "Sara": 15, "Mehdi": 19}
+
+for value in scores.values():
+    print(value)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-189"></a>پاسخ تمرین 189:
+
+```py
+scores = {"Ahmad": 18, "Sara": 15, "Mehdi": 19}
+
+for name, score in scores.items():
+    print(f"{name}: {score}")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-190"></a>پاسخ تمرین 190:
+
+```py
+students = {
+    "Ahmad": 18,
+    "Sara": 15,
+    "Mehdi": 19,
+    "Tina": 12
+}
+
+print("All students:")
+for name, score in students.items():
+    print(f"{name}: {score}")
+
+print()
+print("Students with score 18 or higher:")
+count = 0
+for name, score in students.items():
+    if score >= 18:
+        print(f"{name}: {score}")
+        count = count + 1
+
+print()
+print(f"Number of students with score 18 or higher: {count}")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-191"></a>پاسخ تمرین 191:
+
+```py
+scores = {
+    "math": 18,
+    "physics": 16,
+    "programming": 20
+}
+
+total = 0
+
+for score in scores.values():
+    total = total + score
+
+print(f"Total score: {total}")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-192"></a>پاسخ تمرین 192:
+
+```py
+cart = {
+    "Laptop": 1200,
+    "Mouse": 25,
+    "Keyboard": 50
+}
+
+total = 0
+most_expensive_name = ""
+highest_price = 0
+
+for name, price in cart.items():
+    print(f"{name}: {price}")
+    total = total + price
+
+    if price > highest_price:
+        highest_price = price
+        most_expensive_name = name
+
+print(f"Total price: {total}")
+print(f"Most expensive product: {most_expensive_name} ({highest_price})")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-193"></a>پاسخ تمرین 193:
+
+```py
+scores = {
+    "Ahmad": 18,
+    "Sara": 20,
+    "Mehdi": 14,
+    "Tina": 17,
+    "Hamed": 11
+}
+
+total = 0
+highest_score = 0
+top_student = ""
+
+print("Students and scores:")
+for name, score in scores.items():
+    print(f"{name}: {score}")
+    total = total + score
+
+    if score > highest_score:
+        highest_score = score
+        top_student = name
+
+average = total / len(scores)
+
+print()
+print(f"Total: {total}")
+print(f"Average: {round(average, 2)}")
+
+print()
+print("Students with score 18 or higher:")
+for name, score in scores.items():
+    if score >= 18:
+        print(name)
+
+print()
+print(f"Highest score: {highest_score} ({top_student})")
+print(f"Number of students: {len(scores)}")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-194"></a>پاسخ تمرین 194:
+
+```py
+users = {"ahmad": 20, "mehdi": 19, "ali": 18}
+
+for key in users.keys():
+    print(key.upper())
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+<!-- ### <a id="ex-195"></a>پاسخ تمرین 195:
 
 ```py
 
@@ -3613,7 +3790,7 @@ print(removed_items)
 
 <hr> -->
 
-<!-- ### <a id="ex-188"></a>پاسخ تمرین 188:
+<!-- ### <a id="ex-196"></a>پاسخ تمرین 196:
 
 ```py
 
@@ -3623,7 +3800,7 @@ print(removed_items)
 
 <hr> -->
 
-<!-- ### <a id="ex-189"></a>پاسخ تمرین 189:
+<!-- ### <a id="ex-197"></a>پاسخ تمرین 197:
 
 ```py
 
@@ -3633,7 +3810,7 @@ print(removed_items)
 
 <hr> -->
 
-<!-- ### <a id="ex-190"></a>پاسخ تمرین 190:
+<!-- ### <a id="ex-198"></a>پاسخ تمرین 198:
 
 ```py
 
@@ -3643,7 +3820,7 @@ print(removed_items)
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-199"></a>پاسخ تمرین 199:
 
 ```py
 
@@ -3653,87 +3830,7 @@ print(removed_items)
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-200"></a>پاسخ تمرین 200:
 
 ```py
 
