@@ -3350,55 +3350,99 @@ print(f"Highest score student: {students_tuple[highest_index][0]} ({students_tup
 
 <hr>
 
-<!-- ### <a id="ex-173"></a>پاسخ تمرین 173:
+### <a id="ex-173"></a>پاسخ تمرین 173:
 
 ```py
+book = {
+    "title": "Python",
+    "author": "Ahmad",
+    "pages": 300
+}
 
+print(book)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-174"></a>پاسخ تمرین 174:
+### <a id="ex-174"></a>پاسخ تمرین 174:
 
 ```py
+keys = ["name", "age", "city"]
+values = ["Ahmad", 37, "Shiraz"]
 
+person = dict(zip(keys, values))
+
+print(person)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-175"></a>پاسخ تمرین 175:
+### <a id="ex-175"></a>پاسخ تمرین 175:
 
 ```py
+student = {
+    "name": "Sara",
+    "age": 19,
+    "score": 20
+}
 
+print("Name:", student["name"])
+print("Score:", student["score"])
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-176"></a>پاسخ تمرین 176:
+### <a id="ex-176"></a>پاسخ تمرین 176:
 
 ```py
+student = {
+    "name": " Maryam ",
+    "address": {
+        "city": "Tehran",
+        "country": "Iran"
+    }
+}
 
+print(student["address"]["city"])
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-177"></a>پاسخ تمرین 177:
+### <a id="ex-177"></a>پاسخ تمرین 177:
 
 ```py
+user = {
+    "name": "Ahmad",
+    "age": 20,
+    "profile": {
+        "city": "Tehran",
+        "active": True
+    },
+    "scores": [18, 20, 17]
+}
 
+name = user["name"]
+city = user["profile"]["city"]
+first_score = user["scores"][0]
+email = user.get("email", "Not provided")
+
+print(f"Name: {name}")
+print(f"City: {city}")
+print(f"First score: {first_score}")
+print(f"Email: {email}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-178"></a>پاسخ تمرین 178:
 
