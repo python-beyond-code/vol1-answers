@@ -3220,65 +3220,135 @@ print(f"Type: {type(new_list)}")
 
 <hr>
 
-<!-- ### <a id="ex-167"></a>پاسخ تمرین 167:
+### <a id="ex-167"></a>پاسخ تمرین 167:
 
 ```py
+numbers = (14, 7, 22, 9, 31, 18)
 
+print(f"Tuple: {numbers}")
+print(f"Largest number: {max(numbers)}")
+print(f"Smallest number: {min(numbers)}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-168"></a>پاسخ تمرین 168:
+### <a id="ex-168"></a>پاسخ تمرین 168:
 
 ```py
+person = ("Ali", 25, "Tehran")
 
+name, age, city = person
+
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"City: {city}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-169"></a>پاسخ تمرین 169:
+### <a id="ex-169"></a>پاسخ تمرین 169:
 
 ```py
+numbers = (1, 2, 3, 4, 5, 9, 3, 1, 8, 5, 6, 7, 6, 0, 4, 8, 9, 0, 1)
 
+chosen = int(input("Enter a number from 0 to 9: "))
+print(f"The number {chosen} appears {numbers.count(chosen)} times.")
+
+unique_numbers = []
+
+for number in numbers:
+    if number not in unique_numbers:
+        unique_numbers.append(number)
+
+unique_numbers.sort()
+print(f"Unique values (sorted): {unique_numbers}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-170"></a>پاسخ تمرین 170:
+### <a id="ex-170"></a>پاسخ تمرین 170:
 
 ```py
+numbers = (10, 23, 34, 45, 56, 67, 78, 89, 90)
 
+first = numbers[0]
+last = numbers[-1]
+middle = numbers[1:-1]
+
+print(f"First number: {first}")
+print(f"Last number: {last}")
+print(f"Numbers between them: {middle}")
+print(f"Sum of middle numbers: {sum(middle)}")
+
+odd_units = []
+for number in numbers:
+    units_digit = number % 10
+    if units_digit % 2 != 0:
+        odd_units.append(number)
+
+odd_units_tuple = tuple(odd_units)
+print(f"List: {odd_units}")
+print(f"Tuple: {odd_units_tuple}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-171"></a>پاسخ تمرین 171:
+### <a id="ex-171"></a>پاسخ تمرین 171:
 
 ```py
+integers = []
 
+for i in range(5):
+    decimal_number = float(input("Enter a decimal number: "))
+    integers.append(int(decimal_number))
+
+integers_tuple = tuple(integers)
+
+print(integers_tuple)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-172"></a>پاسخ تمرین 172:
+### <a id="ex-172"></a>پاسخ تمرین 172:
 
 ```py
+students = []
+scores = []
 
+for i in range(5):
+    name = input("Enter the student's name: ")
+    score = int(input("Enter the student's score: "))
+    students.append([name, score])
+    scores.append(score)
+
+students_tuple = tuple(students)
+
+print(f"Number of students: {len(students_tuple)}")
+
+lowest_index = scores.index(min(scores))
+print(f"Lowest score position: {lowest_index}")
+print(f"Lowest score student: {students_tuple[lowest_index][0]}")
+
+average = sum(scores) / len(scores)
+print(f"Average score: {round(average, 2)}")
+
+highest_index = scores.index(max(scores))
+print(f"Highest score student: {students_tuple[highest_index][0]} ({students_tuple[highest_index][1]})")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-173"></a>پاسخ تمرین 173:
 
