@@ -3896,7 +3896,240 @@ print(person)
 
 <hr>
 
-<!-- ### <a id="ex-200"></a>پاسخ تمرین 200:
+### <a id="ex-200"></a>پاسخ تمرین 200:
+
+```py
+python_students = {"Ali", "Sara", "Reza", "Mina"}
+
+java_students = {"Reza", "Mina", "Hassan", "Nima"}
+
+# Students who study Python but not Java
+python_only = python_students - java_students
+
+# Students who study Java but not Python
+java_only = java_students - python_students
+
+print("Python only:", python_only)
+print("Java only:", java_only)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-201"></a>پاسخ تمرین 201:
+
+```py
+python_students = {"Ali", "Sara", "Reza", "Mina", "Hassan"}
+
+java_students = {"Reza", "Mina", "Hassan", "Nima"}
+
+web_students = {"Mina", "Hassan", "Nima", "Omid"}
+
+
+# 1. All students
+all_students = python_students.union(java_students, web_students)
+
+# 2. Students who study both Python and Java
+python_java = python_students.intersection(java_students)
+
+# 3. Python but not Java
+python_only = python_students.difference(java_students)
+
+# 4. Java but not Python
+java_only = java_students.difference(python_students)
+
+# 5. Python but not Web
+python_not_web = python_students.difference(web_students)
+
+
+# Print results and their counts
+print("All students:", sorted(all_students))
+print("Count:", len(all_students))
+
+print("Python and Java:", sorted(python_java))
+print("Count:", len(python_java))
+
+print("Python but not Java:", sorted(python_only))
+print("Count:", len(python_only))
+
+print("Java but not Python:", sorted(java_only))
+print("Count:", len(java_only))
+
+print("Python but not Web:", sorted(python_not_web))
+print("Count:", len(python_not_web))
+
+
+# 6. Loop through Difference results
+print("Python only:")
+for student in python_only:
+    print(student)
+
+print("Java only:")
+for student in java_only:
+    print(student)
+
+print("Python but not Web:")
+for student in python_not_web:
+    print(student)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-202"></a>پاسخ تمرین 202:
+
+```py
+a = {1, 2, 3, 4, 5}
+
+b = {3, 4, 5, 6, 7}
+
+result = a.difference(b)
+
+print(result)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-203"></a>پاسخ تمرین 203:
+
+```py
+a = {10, 20, 30, 40, 50}
+
+b = {20, 40, 60}
+
+# Elements in a but not in b
+result1 = a.difference(b)
+
+# Elements in b but not in a
+result2 = b.difference(a)
+
+print("A - B:", result1)
+print("B - A:", result2)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-204"></a>پاسخ تمرین 204:
+
+```py
+all_courses = {"Math", "Physics", "Python", "English", "History"}
+
+selected_courses = {"Math", "Python", "English"}
+
+remaining_courses = all_courses.difference(selected_courses)
+
+print("Courses not selected:", remaining_courses)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-205"></a>پاسخ تمرین 205:
+
+```py
+day1 = [101, 102, 103, 104, 105]
+
+day2 = [103, 104, 106]
+
+set1 = set(day1)
+set2 = set(day2)
+
+result = set1.difference(set2)
+
+print("Products sold on day 1 but not on day 2:", result)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-206"></a>پاسخ تمرین 206:
+
+```py
+set1 = set(input("Enter the first set elements: ").split())
+
+set2 = set(input("Enter the second set elements: ").split())
+
+result = set1.difference(set2)
+
+print("Elements only in the first set:", result)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-207"></a>پاسخ تمرین 207:
+
+```py
+set1 = set(input("Enter the first set: ").split())
+
+set2 = set(input("Enter the second set: ").split())
+
+# Elements only in the first set
+result1 = set1.difference(set2)
+
+# Elements only in the second set
+result2 = set2.difference(set1)
+
+# Common elements
+result3 = set1.intersection(set2)
+
+print("Only in first set:", result1)
+print("Only in second set:", result2)
+print("Common elements:", result3)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-208"></a>پاسخ تمرین 208:
+
+```py
+class1 = ["Ali", "Sara", "Reza", "Mina", "Nima"]
+
+class2 = ["Sara", "Mina", "Hamed", "Nima"]
+
+set1 = set(class1)
+set2 = set(class2)
+
+# Students only in class 1
+result1 = set1.difference(set2)
+
+# Students only in class 2
+result2 = set2.difference(set1)
+
+# Students in both classes
+result3 = set1.intersection(set2)
+
+print("Only in class 1:", result1)
+print("Only in class 2:", result2)
+print("In both classes:", result3)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+<!-- ### <a id="ex-209"></a>پاسخ تمرین 209:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-210"></a>پاسخ تمرین 210:
 
 ```py
 
@@ -3926,5 +4159,284 @@ print(person)
 
 <hr> -->
 
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
+
+<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+
+```py
+
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr> -->
 
 </div>
