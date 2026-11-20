@@ -4157,304 +4157,1429 @@ print("Symmetric Difference:", set_a ^ set_b)
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-211"></a>پاسخ تمرین 211:
 
 ```py
+name = input("Enter student name: ")
+
+score1 = float(input("Enter first score: "))
+score2 = float(input("Enter second score: "))
+score3 = float(input("Enter third score: "))
+
+average = (score1 + score2 + score3) / 3
+
+percentage = (average / 20) * 100
+
+if average >= 10:
+    status = "Passed"
+else:
+    status = "Failed"
+
+print("\n----- Student Report -----")
+print(f"Name: {name}")
+print(f"Average: {average:.2f}")
+print(f"Percentage: {percentage:.2f}%")
+print(f"Status: {status}")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-212"></a>پاسخ تمرین 212:
+
+```py
+sentence = input("Enter a sentence: ")
+
+# Count characters
+char_count = len(sentence)
+
+# Convert sentence to lowercase
+lower_sentence = sentence.lower()
+
+# Check if python exists
+has_python = "python" in lower_sentence
+
+# Split sentence into words
+words = sentence.split()
+
+# Count words
+word_count = len(words)
+
+# Print report
+print("\n----- Sentence Report -----")
+print("Original sentence:", sentence)
+print("Character count:", char_count)
+print("Lowercase sentence:", lower_sentence)
+print("Contains Python:", has_python)
+print("Word count:", word_count)
+print("Words list:", words)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-213"></a>پاسخ تمرین 213:
+
+```py
+scores = [12, 18, 9, 15, 20, 7, 18, 14]
+
+passed = []
+failed = []
+
+# Count scores
+count = len(scores)
+
+# Calculate average
+average = sum(scores) / count
+
+# Check passed and failed scores
+for score in scores:
+    if score >= 10:
+        passed.append(score)
+    else:
+        failed.append(score)
+
+# Find highest score
+highest = max(scores)
+
+# Print report
+print("----- Scores Report -----")
+print("Number of scores:", count)
+print("Average:", average)
+print("Passed scores:", passed)
+print("Failed scores:", failed)
+print("Highest score:", highest)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-214"></a>پاسخ تمرین 214:
+
+```py
+names = input("Enter names: ")
+
+# Split names
+names_list = names.split()
+
+# Convert list to set
+unique_names = set(names_list)
+
+# Count unique names
+count = len(unique_names)
+
+# Sort names
+sorted_names = sorted(unique_names)
+
+# Check if Ali exists
+has_ali = "Ali" in unique_names
+
+# Print report
+print("\n----- Names Report -----")
+print("Unique names:", unique_names)
+print("Number of unique names:", count)
+print("Sorted names:", sorted_names)
+print("Is Ali in the set?", has_ali)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-215"></a>پاسخ تمرین 215:
+
+```py
+scores = {
+    "Ali": 18,
+    "Sara": 15,
+    "Reza": 19,
+    "Mina": 12,
+    "Mehdi": 17
+}
+
+name = input("Enter student name: ")
+
+if name in scores:
+    print("Student score:", scores[name])
+else:
+    print("Student not found!")
+
+print("Number of students:", len(scores))
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-216"></a>پاسخ تمرین 216:
+
+```py
+students = {}
+
+# Get information for five students
+for i in range(5):
+    name = input("Enter student name: ")
+    score = float(input("Enter student score: "))
+    students[name] = score
+
+# Find passed students
+passed_students = []
+
+for name in students:
+    if students[name] >= 10:
+        passed_students.append(name)
+
+# Find the student with the highest score
+top_student = max(students, key=students.get)
+
+# Calculate the average score
+average = sum(students.values()) / len(students)
+
+# Display the results
+print("\n----- Students Report -----")
+print("Passed students:", passed_students)
+print("Top student:", top_student)
+print("Highest score:", students[top_student])
+print("Average score:", average)
+print("Number of passed students:", len(passed_students))
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-217"></a>پاسخ تمرین 217:
+
+```py
+numbers = [10, 20, 10, 30, 40, 20, 50, 30]
+
+# Create a new set without duplicates
+unique_numbers = set(numbers)
+
+# Count unique elements
+count = len(unique_numbers)
+
+# Sort unique elements
+sorted_numbers = sorted(unique_numbers)
+
+# Display the results
+print("Original list:", numbers)
+print("Unique set:", unique_numbers)
+print("Number of unique elements:", count)
+print("Sorted elements:", sorted_numbers)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-218"></a>پاسخ تمرین 218:
+
+```py
+student = {
+    "name": "Ahmad",
+    "age": 20,
+    "scores": [18, 16, 19]
+}
+
+# Get student information
+name = student["name"]
+age = student["age"]
+scores = student["scores"]
+
+# Display all scores
+print("Student scores:")
+for score in scores:
+    print(score)
+
+# Calculate average score
+average = sum(scores) / len(scores)
+
+# Find the highest score
+highest_score = max(scores)
+
+# Check pass or fail
+if average >= 10:
+    result = "Passed"
+else:
+    result = "Failed"
+
+# Display final report
+print("\n----- Student Report -----")
+print("Name:", name)
+print("Age:", age)
+print("Scores:", scores)
+print("Average:", average)
+print("Highest score:", highest_score)
+print("Final result:", result)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-219"></a>پاسخ تمرین 219:
+
+```py
+numbers = []
+
+# Get five numbers from the user
+for i in range(5):
+    number = int(input("Enter a number: "))
+    numbers.append(number)
+
+# Separate even and odd numbers
+even_numbers = set()
+odd_numbers = set()
+
+for number in numbers:
+    if number % 2 == 0:
+        even_numbers.add(number)
+    else:
+        odd_numbers.add(number)
+
+# Calculate counts, sum and average
+even_count = len(even_numbers)
+odd_count = len(odd_numbers)
+
+total = sum(numbers)
+average = total / len(numbers)
+
+# Sort the sets
+sorted_even = sorted(even_numbers)
+sorted_odd = sorted(odd_numbers)
+
+# Display the results
+print("\n----- Numbers Report -----")
+print("Original numbers:", numbers)
+print("Even numbers:", sorted_even)
+print("Odd numbers:", sorted_odd)
+print("Number of even elements:", even_count)
+print("Number of odd elements:", odd_count)
+print("Sum:", total)
+print("Average:", average)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-220"></a>پاسخ تمرین 220:
+
+```py
+python_students = {"Ali", "Sara", "Reza", "Mina"}
+java_students = {"Reza", "Mina", "Hassan", "Nima"}
+
+# Find all students
+all_students = python_students.union(java_students)
+
+# Find common students
+common_students = python_students.intersection(java_students)
+
+# Find students only in the first group
+python_only = python_students.difference(java_students)
+
+# Find students only in the second group
+java_only = java_students.difference(python_students)
+
+# Find students in only one group
+exclusive_students = python_students.symmetric_difference(java_students)
+
+# Display the results
+print("All students:", all_students)
+print("Common students:", common_students)
+print("Python only:", python_only)
+print("Java only:", java_only)
+print("Students in only one group:", exclusive_students)
+
+# Display the counts
+print("\n----- Counts -----")
+print("Total students:", len(all_students))
+print("Common students:", len(common_students))
+print("Python only:", len(python_only))
+print("Java only:", len(java_only))
+print("Students in only one group:", len(exclusive_students))
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-221"></a>پاسخ تمرین 221:
+
+```py
+users = {
+    "ali": "1234",
+    "sara": "5678",
+    "reza": "abcd"
+}
+
+# Get username
+username = input("Enter username: ")
+
+# Check if username exists
+if username in users:
+
+    # Get password
+    password = input("Enter password: ")
+
+    # Check password
+    if password == users[username]:
+        print("Login successful!")
+    else:
+        print("Incorrect password!")
+
+else:
+    print("Username not found!")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-222"></a>پاسخ تمرین 222:
+
+```py
+names = ["Ahmad", "Sara", "Ali", "Mehdi", "Sara", "Ali", "Mina"]
+
+# Get a name from the user
+name = input("Enter a name: ")
+
+# Count the occurrences of the name
+count = names.count(name)
+
+# Check if the name exists
+if name in names:
+    print("Name exists in the list.")
+else:
+    print("Name does not exist in the list.")
+
+print("Number of occurrences:", count)
+
+# Remove duplicate names
+unique_names = set(names)
+
+# Sort unique names
+sorted_names = sorted(unique_names)
+
+# Display unique names
+print("Unique names:", sorted_names)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-223"></a>پاسخ تمرین 223:
+
+```py
+# Get text from the user
+text = input("Enter a text: ")
+
+# Remove extra spaces
+text = text.strip()
+
+# Convert text to lowercase
+text = text.lower()
+
+# Split text into words
+words = text.split()
+
+# Count total words
+word_count = len(words)
+
+# Create a set of unique words
+unique_words = set(words)
+
+# Count unique words
+unique_count = len(unique_words)
+
+# Get a word from the user
+word = input("Enter a word to search: ").lower()
+
+# Check if the word exists
+if word in unique_words:
+    print("Word exists in the text.")
+else:
+    print("Word does not exist in the text.")
+
+# Display the results
+print("\n----- Text Report -----")
+print("Words:", words)
+print("Total words:", word_count)
+print("Unique words:", unique_words)
+print("Number of unique words:", unique_count)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-224"></a>پاسخ تمرین 224:
+
+```py
+shopping_list = []
+
+# Get shopping items
+while True:
+    item = input("Enter an item (or done to finish): ")
+
+    if item == "done":
+        break
+
+    shopping_list.append(item)
+
+# Find duplicate items
+duplicates = []
+
+for item in shopping_list:
+    if shopping_list.count(item) > 1 and item not in duplicates:
+        duplicates.append(item)
+
+# Create a set of unique items
+unique_items = set(shopping_list)
+
+# Count unique items
+unique_count = len(unique_items)
+
+# Sort unique items
+sorted_items = sorted(unique_items)
+
+# Display the results
+print("\n----- Shopping List Report -----")
+print("Original list:", shopping_list)
+print("Duplicate items:", duplicates)
+print("Unique items:", sorted_items)
+print("Number of unique items:", unique_count)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-225"></a>پاسخ تمرین 225:
+
+```py
+def analyze_scores(scores):
+
+    # Calculate average score
+    average = sum(scores) / len(scores)
+
+    # Find highest and lowest scores
+    highest = max(scores)
+    lowest = min(scores)
+
+    # Count passed scores
+    passed_count = 0
+
+    for score in scores:
+        if score >= 10:
+            passed_count += 1
+
+    # Return the results
+    return average, highest, lowest, passed_count
+
+
+# Call the function
+scores = [12, 18, 9, 15, 20, 7, 18, 14]
+
+result = analyze_scores(scores)
+
+# Display the results
+print("----- Scores Report -----")
+print("Scores:", scores)
+print("Average:", result[0])
+print("Highest score:", result[1])
+print("Lowest score:", result[2])
+print("Number of passed scores:", result[3])
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-226"></a>پاسخ تمرین 226:
+
+```py
+students = ["Ahmad", "Sara", "Mehdi", "Mina", "Ali"]
+
+# Create a dictionary with student numbers
+student_dict = {}
+
+for number, name in enumerate(students, start=1):
+    student_dict[number] = name
+
+# Display the dictionary
+print("Students Dictionary:", student_dict)
+
+# Get a student name
+search_name = input("Enter student name: ")
+
+# Find the student's number
+found = False
+
+for number, name in student_dict.items():
+    if name == search_name:
+        print("Student number:", number)
+        found = True
+        break
+
+if not found:
+    print("Student not found!")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-227"></a>پاسخ تمرین 227:
+
+```py
+text = input("Enter a text: ")
+
+# Create an empty dictionary
+char_count = {}
+
+# Count the occurrences of each character
+for char in text:
+    if char in char_count:
+        char_count[char] += 1
+    else:
+        char_count[char] = 1
+
+# Count unique characters
+unique_count = len(char_count)
+
+# Display the results
+print("\n----- Character Report -----")
+print("Unique characters:", unique_count)
+print("Character frequencies:", char_count)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-228"></a>پاسخ تمرین 228:
+
+```py
+students = {}
+
+# Get information for five students
+for i in range(5):
+    name = input("Enter student name: ")
+    age = int(input("Enter student age: "))
+    score = float(input("Enter student score: "))
+
+    students[name] = {
+        "age": age,
+        "score": score
+    }
+
+# Calculate average score
+total = 0
+
+for name in students:
+    total += students[name]["score"]
+
+average = total / len(students)
+
+# Find passed students
+passed_students = []
+
+for name in students:
+    if students[name]["score"] >= 10:
+        passed_students.append(name)
+
+# Find the student with the highest score
+top_student = max(students, key=lambda name: students[name]["score"])
+
+# Sort student names
+sorted_names = sorted(students)
+
+# Display the results
+print("\n----- Students Report -----")
+print("Average score:", average)
+print("Passed students:", passed_students)
+print("Top student:", top_student)
+print("Highest score:", students[top_student]["score"])
+print("Sorted names:", sorted_names)
+print("Number of students:", len(students))
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-229"></a>پاسخ تمرین 229:
+
+```py
+import random
+
+# Generate a random number between 1 and 100
+secret_number = random.randint(1, 100)
+
+# Initialize the attempts counter
+attempts = 0
+
+# Get guesses until the correct answer
+while True:
+    guess = int(input("Guess the number (1-100): "))
+    attempts += 1
+
+    if guess > secret_number:
+        print("Your guess is too high!")
+
+    elif guess < secret_number:
+        print("Your guess is too low!")
+
+    else:
+        print("Correct! You guessed the number.")
+        break
+
+# Display the number of attempts
+print("Number of attempts:", attempts)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-230"></a>پاسخ تمرین 230:
+
+```py
+a = [10, 20, 30, 40, 50]
+b = [30, 40, 50, 60, 70]
+
+# Convert lists to sets
+set_a = set(a)
+set_b = set(b)
+
+# Find common numbers
+common = set_a.intersection(set_b)
+
+# Find numbers only in the first list
+only_a = set_a.difference(set_b)
+
+# Find numbers only in the second list
+only_b = set_b.difference(set_a)
+
+# Find all unique numbers
+all_unique = set_a.union(set_b)
+
+# Sort the results
+sorted_common = sorted(common)
+sorted_only_a = sorted(only_a)
+sorted_only_b = sorted(only_b)
+sorted_all = sorted(all_unique)
+
+# Display the results
+print("Common numbers:", sorted_common)
+print("Only in list A:", sorted_only_a)
+print("Only in list B:", sorted_only_b)
+print("All unique numbers:", sorted_all)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-231"></a>پاسخ تمرین 231:
+
+```py
+# Get names from the user
+text = input("Enter names separated by spaces: ")
+
+# Split the input into individual names
+names = text.split()
+
+# Remove extra spaces and standardize capitalization
+clean_names = [name.strip().title() for name in names]
+
+# Remove duplicate names
+unique_names = set(clean_names)
+
+# Sort names alphabetically
+sorted_names = sorted(unique_names)
+
+# Display the final names
+print("Final names:", sorted_names)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-232"></a>پاسخ تمرین 232:
+
+```py
+scores = {
+    "Ali": 18,
+    "Sara": 20,
+    "Reza": 17,
+    "Mina": 19,
+    "Mehdi": 20
+}
+
+# Find the highest score
+highest_score = max(scores.values())
+
+# Find all students with the highest score
+top_students = []
+
+for name, score in scores.items():
+    if score == highest_score:
+        top_students.append(name)
+
+# Display the results
+print("Highest score:", highest_score)
+print("Students:", top_students)
+print("Number of students:", len(top_students))
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-233"></a>پاسخ تمرین 233:
+
+```py
+# Get a sentence from the user
+text = input("Enter a sentence: ")
+
+# Convert the text to lowercase
+lower_text = text.lower()
+
+# Split the sentence into words
+words = lower_text.split()
+
+# Create a set of unique words
+unique_words = set(words)
+
+# Sort unique words
+sorted_words = sorted(unique_words)
+
+# Display the report
+print("Original text:", text)
+print("Lowercase text:", lower_text)
+print("Character count:", len(text))
+print("Word count:", len(words))
+print("Unique word count:", len(unique_words))
+
+if words:
+    print("First word:", words[0])
+    print("Last word:", words[-1])
+else:
+    print("First word: None")
+    print("Last word: None")
+
+print("Sorted unique words:", sorted_words)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-234"></a>پاسخ تمرین 234:
+
+```py
+inventory = {
+    "keyboard": 12,
+    "mouse": 5,
+    "monitor": 0,
+    "headset": 8
+}
+
+# Create lists for available and unavailable products
+available = []
+unavailable = []
+
+# Separate products based on their stock
+for name, quantity in inventory.items():
+    if quantity > 0:
+        available.append(name)
+    else:
+        unavailable.append(name)
+
+# Calculate total stock
+total_stock = sum(inventory.values())
+
+# Display inventory report
+print("Available products:", available)
+print("Unavailable products:", unavailable)
+print("Total stock:", total_stock)
+
+# Get a product name from the user
+product = input("Enter product name: ").strip().lower()
+
+# Check product availability
+if product in inventory:
+    print("Stock:", inventory[product])
+else:
+    print("Product not found!")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-235"></a>پاسخ تمرین 235:
+
+```py
+numbers = [10, -5, 20, 0, -3, 15, 7, -1]
+
+# Find negative numbers
+negative_numbers = []
+
+for num in numbers:
+    if num < 0:
+        negative_numbers.append(num)
+
+# Remove negative numbers
+remaining = []
+
+for num in numbers:
+    if num >= 0:
+        remaining.append(num)
+
+# Calculate statistics
+count = len(remaining)
+total = sum(remaining)
+
+if count > 0:
+    average = total / count
+else:
+    average = 0
+
+# Display results
+print("Negative numbers:", negative_numbers)
+print("Remaining numbers:", remaining)
+print("Count:", count)
+print("Sum:", total)
+print("Average:", average)
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-236"></a>پاسخ تمرین 236:
+
+```py
+# Create an empty phone book
+phone_book = {}
+
+while True:
+    print("\n--- Phone Book ---")
+    print("1. Add a person")
+    print("2. Search for a person")
+    print("3. Display all people")
+    print("4. Update phone number")
+    print("5. Delete a person")
+    print("6. Count people")
+    print("0. Exit")
+
+    choice = input("Choose an option: ")
+
+    # Add a person
+    if choice == "1":
+        name = input("Enter name: ").strip()
+        phone = input("Enter phone number: ").strip()
+
+        if name in phone_book:
+            print("This person already exists!")
+        else:
+            phone_book[name] = phone
+            print("Person added successfully.")
+
+    # Search for a person
+    elif choice == "2":
+        name = input("Enter name to search: ").strip()
+
+        if name in phone_book:
+            print("Phone number:", phone_book[name])
+        else:
+            print("Person not found.")
+
+    # Display all people
+    elif choice == "3":
+        if phone_book:
+            for name, phone in phone_book.items():
+                print(name, ":", phone)
+        else:
+            print("Phone book is empty.")
+
+    # Update phone number
+    elif choice == "4":
+        name = input("Enter name: ").strip()
+
+        if name in phone_book:
+            new_phone = input("Enter new phone number: ").strip()
+            phone_book[name] = new_phone
+            print("Phone number updated.")
+        else:
+            print("Person not found.")
+
+    # Delete a person
+    elif choice == "5":
+        name = input("Enter name to delete: ").strip()
+
+        if name in phone_book:
+            del phone_book[name]
+            print("Person deleted.")
+        else:
+            print("Person not found.")
+
+    # Count people
+    elif choice == "6":
+        print("Number of people:", len(phone_book))
+
+    # Exit
+    elif choice == "0":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid option. Try again.")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-237"></a>پاسخ تمرین 237:
+
+```py
+# Store student names and scores
+students = {}
+
+
+# Get student information
+def get_students():
+    count = int(input("How many students? "))
+
+    for i in range(count):
+        name = input("Enter student name: ").strip()
+        score = float(input("Enter student score: "))
+
+        students[name] = score
+
+
+# Calculate class average
+def calculate_average():
+    return sum(students.values()) / len(students)
+
+
+# Find passed students
+def get_passed():
+    return [name for name, score in students.items() if score >= 10]
+
+
+# Find failed students
+def get_failed():
+    return [name for name, score in students.items() if score < 10]
+
+
+# Find highest and lowest scores
+def get_highest():
+    return max(students.values())
+
+
+def get_lowest():
+    return min(students.values())
+
+
+# Display all student names alphabetically
+def display_names():
+    for name in sorted(students):
+        print(name, ":", students[name])
+
+
+# Display the class report
+def show_report():
+    print("\n--- Class Report ---")
+    print("Number of students:", len(students))
+    print("Class average:", round(calculate_average(), 2))
+    print("Passed students:", get_passed())
+    print("Failed students:", get_failed())
+    print("Highest score:", get_highest())
+    print("Lowest score:", get_lowest())
+
+    print("\nStudents in alphabetical order:")
+    display_names()
+
+
+# Run the program
+get_students()
+
+if students:
+    show_report()
+else:
+    print("No student information entered.")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-238"></a>پاسخ تمرین 238:
+
+```py
+# Get members of the first group
+group1 = set(input("Enter group 1 members: ").split())
+
+# Get members of the second group
+group2 = set(input("Enter group 2 members: ").split())
+
+# Find common members
+common = group1 & group2
+
+# Find members only in group 1
+only_group1 = group1 - group2
+
+# Find members only in group 2
+only_group2 = group2 - group1
+
+# Find members in exactly one group
+exclusive = group1 ^ group2
+
+# Display group sizes
+print("\nGroup 1 count:", len(group1))
+print("Group 2 count:", len(group2))
+
+# Display results in alphabetical order
+print("\nCommon members:", sorted(common))
+print("Only in group 1:", sorted(only_group1))
+print("Only in group 2:", sorted(only_group2))
+print("Members in exactly one group:", sorted(exclusive))
+
+# Display final combined members
+print("All members:", sorted(group1 | group2))
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-239"></a>پاسخ تمرین 239:
+
+```py
+# Get data from the user
+data = input("Enter values separated by spaces: ").split()
+
+while True:
+    print("\n--- Data Management ---")
+    print("1. Display data")
+    print("2. Display unique data")
+    print("3. Sort data")
+    print("4. Search for a value")
+    print("5. Count data")
+    print("6. Delete a value")
+    print("0. Exit")
+
+    choice = input("Choose an option: ")
+
+    # Display all data
+    if choice == "1":
+        print("Data:", data)
+
+    # Display unique data
+    elif choice == "2":
+        print("Unique data:", sorted(set(data)))
+
+    # Sort data
+    elif choice == "3":
+        data.sort()
+        print("Sorted data:", data)
+
+    # Search for a value
+    elif choice == "4":
+        value = input("Enter value to search: ")
+
+        if value in data:
+            print("Value found.")
+        else:
+            print("Value not found.")
+
+    # Count data
+    elif choice == "5":
+        print("Number of values:", len(data))
+
+    # Delete a value
+    elif choice == "6":
+        value = input("Enter value to delete: ")
+
+        if value in data:
+            data.remove(value)
+            print("Value deleted.")
+        else:
+            print("Value not found.")
+
+    # Exit
+    elif choice == "0":
+        print("Goodbye!")
+        break
+
+    else:
+        print("Invalid option. Try again.")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+### <a id="ex-240"></a>پاسخ تمرین 240:
+
+```py
+
+# Main student database
+students = {}
+
+
+# Get a valid integer from the user
+def get_integer(message, minimum=0):
+    while True:
+        try:
+            value = int(input(message))
+
+            if value < minimum:
+                print("Value is too small.")
+                continue
+
+            return value
+
+        except ValueError:
+            print("Please enter a valid integer.")
+
+
+# Get a valid score
+def get_score(message):
+    while True:
+        try:
+            score = float(input(message))
+
+            if 0 <= score <= 20:
+                return score
+
+            print("Score must be between 0 and 20.")
+
+        except ValueError:
+            print("Please enter a valid number.")
+
+
+# Get student information
+def get_student_data():
+    age = get_integer("Enter age: ", 1)
+
+    while True:
+        count = get_integer("How many scores? ", 1)
+
+        if count > 0:
+            break
+
+    scores = []
+
+    for i in range(count):
+        score = get_score(f"Enter score {i + 1}: ")
+        scores.append(score)
+
+    return {
+        "age": age,
+        "scores": scores
+    }
+
+
+# Calculate average score
+def calculate_average(student):
+    return sum(student["scores"]) / len(student["scores"])
+
+
+# Add a new student
+def add_student():
+    name = input("Enter student name: ").strip().title()
+
+    if not name:
+        print("Name cannot be empty.")
+        return
+
+    if name in students:
+        print("This student already exists.")
+        return
+
+    students[name] = get_student_data()
+    print("Student added successfully.")
+
+
+# Display one student
+def display_student(name):
+    student = students[name]
+    average = calculate_average(student)
+
+    print("\nName:", name)
+    print("Age:", student["age"])
+    print("Scores:", student["scores"])
+    print("Average:", round(average, 2))
+
+    if average >= 10:
+        print("Status: Passed")
+    else:
+        print("Status: Failed")
+
+
+# Display all students
+def display_all_students():
+    if not students:
+        print("No students registered.")
+        return
+
+    for name in sorted(students):
+        display_student(name)
+
+
+# Search for a student
+def search_student():
+    name = input("Enter student name: ").strip().title()
+
+    if name in students:
+        display_student(name)
+    else:
+        print("Student not found.")
+
+
+# Calculate and display class averages
+def display_class_statistics():
+    if not students:
+        print("No student data available.")
+        return
+
+    averages = {}
+
+    for name, student in students.items():
+        averages[name] = calculate_average(student)
+
+    highest = max(averages.values())
+    lowest = min(averages.values())
+
+    top_students = [
+        name for name, avg in averages.items()
+        if avg == highest
+    ]
+
+    lowest_students = [
+        name for name, avg in averages.items()
+        if avg == lowest
+    ]
+
+    print("\nHighest average:", round(highest, 2))
+    print("Student(s):", sorted(top_students))
+
+    print("\nLowest average:", round(lowest, 2))
+    print("Student(s):", sorted(lowest_students))
+
+    class_average = sum(averages.values()) / len(averages)
+
+    print("\nClass average:", round(class_average, 2))
+
+
+# Display the number of students
+def count_students():
+    print("Number of students:", len(students))
+
+
+# Display unique and sorted names
+def display_names():
+    names = sorted(set(students.keys()))
+
+    print("Unique student names:", names)
+
+
+# Update student information
+def update_student():
+    name = input("Enter student name: ").strip().title()
+
+    if name not in students:
+        print("Student not found.")
+        return
+
+    print("Enter the new information:")
+    students[name] = get_student_data()
+
+    print("Student information updated successfully.")
+
+
+# Delete a student
+def delete_student():
+    name = input("Enter student name: ").strip().title()
+
+    if name in students:
+        del students[name]
+        print("Student deleted successfully.")
+    else:
+        print("Student not found.")
+
+
+# Main menu
+def main():
+    while True:
+        print("\n========== STUDENT MANAGEMENT ==========")
+        print("1. Add student")
+        print("2. Display all students")
+        print("3. Search student")
+        print("4. Calculate class statistics")
+        print("5. Find highest and lowest averages")
+        print("6. Count students")
+        print("7. Display unique sorted names")
+        print("8. Update student")
+        print("9. Delete student")
+        print("0. Exit")
+
+        choice = input("Choose an option: ").strip()
+
+        if choice == "1":
+            add_student()
+
+        elif choice == "2":
+            display_all_students()
+
+        elif choice == "3":
+            search_student()
+
+        elif choice == "4":
+            display_class_statistics()
+
+        elif choice == "5":
+            display_class_statistics()
+
+        elif choice == "6":
+            count_students()
+
+        elif choice == "7":
+            display_names()
+
+        elif choice == "8":
+            update_student()
+
+        elif choice == "9":
+            delete_student()
+
+        elif choice == "0":
+            print("Program ended.")
+            break
+
+        else:
+            print("Invalid choice. Try again.")
+
+
+# Start the program
+main()
 
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
+<hr>
 
 </div>
