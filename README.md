@@ -4119,25 +4119,43 @@ print("In both classes:", result3)
 
 <hr>
 
-<!-- ### <a id="ex-209"></a>پاسخ تمرین 209:
+### <a id="ex-209"></a>پاسخ تمرین 209:
 
 ```py
+permissions = frozenset(["read", "write", "delete"])
 
+print(permissions)
+
+print("write" in permissions)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-210"></a>پاسخ تمرین 210:
+### <a id="ex-210"></a>پاسخ تمرین 210:
 
 ```py
+set_a = frozenset([1, 2, 3, 4])
 
+set_b = frozenset([3, 4, 5, 6])
+
+# Intersection (اشتراک)
+print("Intersection:", set_a & set_b)
+
+# Union (اجتماع)
+print("Union:", set_a | set_b)
+
+# Difference (تفاضل)
+print("Difference:", set_a - set_b)
+
+# Symmetric Difference (تفاضل متقارن)
+print("Symmetric Difference:", set_a ^ set_b)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
 
