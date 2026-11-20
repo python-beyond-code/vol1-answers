@@ -3780,55 +3780,121 @@ for key in users.keys():
 
 <hr>
 
-<!-- ### <a id="ex-195"></a>پاسخ تمرین 195:
+### <a id="ex-195"></a>پاسخ تمرین 195:
 
 ```py
+student = {
+    "name": "Ahmad",
+    "age": 20,
+    "score": 18
+}
 
+if "score" in student:
+    print(f"score: {student['score']}")
+else:
+    print("The key 'score' does not exist.")
+
+if "email" in student:
+    print(f"email: {student['email']}")
+else:
+    print("The key 'email' does not exist.")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-196"></a>پاسخ تمرین 196:
+### <a id="ex-196"></a>پاسخ تمرین 196:
 
 ```py
+student = {
+    "name": "Sara",
+    "age": 21,
+    "score": 19,
+    "city": "Tehran"
+}
 
+print(f"Number of items: {len(student)}")
+
+student["major"] = "Computer Engineering"
+
+print(f"Number of items after adding major: {len(student)}")
+print(student)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-197"></a>پاسخ تمرین 197:
+### <a id="ex-197"></a>پاسخ تمرین 197:
 
 ```py
+student = {
+    "name": "Mehdi",
+    "score": 17
+}
 
+copy_student = student.copy()
+copy_student["score"] = 20
+
+print(f"Original: {student}")
+print(f"Copy: {copy_student}")
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-198"></a>پاسخ تمرین 198:
+### <a id="ex-198"></a>پاسخ تمرین 198:
 
 ```py
+name = input("Enter student name: ")
+age = int(input("Enter student age: "))
+score = float(input("Enter student score: "))
 
+student = {
+    "name": name,
+    "age": age,
+    "score": score
+}
+
+print("Number of items:", len(student))
+
+student_copy = student.copy()
+
+if "City" not in student_copy:
+    student_copy["City"] = "Unknown"
+
+student_copy["score"] = 20
+
+print("Original dictionary:", student)
+print("Copied dictionary:", student_copy)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-199"></a>پاسخ تمرین 199:
+### <a id="ex-199"></a>پاسخ تمرین 199:
 
 ```py
+keys = ["first_name", "last_name", "age", "city"]
 
+values = []
+
+values.append(input("Enter your first name: "))
+values.append(input("Enter your last name: "))
+values.append(int(input("Enter your age: ")))
+values.append(input("Enter your city: "))
+
+person = dict(zip(keys, values))
+
+print(person)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-200"></a>پاسخ تمرین 200:
 
