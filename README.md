@@ -3096,7 +3096,36 @@ for student in students:
 
 <hr>
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+### <a id="ex-162"></a>پاسخ تمرین 162:
+
+```py
+numbers = []
+
+for i in range(10):
+    number = int(input("Enter a number: "))
+    numbers.append(number)
+
+print(f"Original list: {numbers}")
+
+target = int(input("Enter a number to remove: "))
+if target in numbers:
+    numbers.remove(target)
+else:
+    print("This number is not in the list.")
+
+removed = numbers.pop(3)
+print(f"Removed with pop(): {removed}")
+
+del numbers[-1]
+
+print(f"Final list: {numbers}")
+```
+
+[بازگشت به فهرست](#toc)
+
+<hr>
+
+<!-- ### <a id="ex-163"></a>پاسخ تمرین 163:
 
 ```py
 
@@ -3106,17 +3135,7 @@ for student in students:
 
 <hr> -->
 
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
-
-```py
-
-```
-
-[بازگشت به فهرست](#toc)
-
-<hr> -->
-
-<!-- ### <a id="ex-13"></a>پاسخ تمرین 13:
+<!-- ### <a id="ex-164"></a>پاسخ تمرین 164:
 
 ```py
 
