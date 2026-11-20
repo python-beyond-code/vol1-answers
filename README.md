@@ -3527,42 +3527,81 @@ print(letters)
 ### <a id="ex-183"></a>پاسخ تمرین 183:
 
 ```py
+student = {"name": "Ahmad", "age": 20, "score": 18, "city": "Shiraz"}
 
+del student["score"]
+removed_city = student.pop("city")
+
+print(f"Removed city: {removed_city}")
+print(student)
 ```
 
 [بازگشت به فهرست](#toc)
 
 <hr>
 
-<!-- ### <a id="ex-184"></a>پاسخ تمرین 184:
+### <a id="ex-184"></a>پاسخ تمرین 184:
 
 ```py
+student = {"name": "Ahmad", "age": 20, "score": 18, "city": "Shiraz"}
 
+removed_score = student.pop("score")
+print(f"Removed score: {removed_score}")
+print(student)
+
+last_item = student.popitem()
+print(f"Removed last item: {last_item}")
+print(student)
+
+student.clear()
+print(student)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-185"></a>پاسخ تمرین 185:
+### <a id="ex-185"></a>پاسخ تمرین 185:
 
 ```py
+# step 1
+import string
 
+letters = {}
+
+for i in range(26):
+    letters[i] = string.ascii_uppercase[i]
+
+print(letters)
+
+# step 2 with zip()
+import string
+
+letters = dict(zip(range(26), string.ascii_uppercase))
+
+print(letters)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
-<!-- ### <a id="ex-186"></a>پاسخ تمرین 186:
+### <a id="ex-186"></a>پاسخ تمرین 186:
 
 ```py
+dic = {1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f'}
+removed_items = []
 
+while len(dic) > 0:
+    removed_items.append(dic.popitem())
+
+removed_items.sort()
+print(removed_items)
 ```
 
 [بازگشت به فهرست](#toc)
 
-<hr> -->
+<hr>
 
 <!-- ### <a id="ex-187"></a>پاسخ تمرین 187:
 
